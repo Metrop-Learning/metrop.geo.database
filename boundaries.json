@@ -1,4 +1,8 @@
 {
+    "DB:INFO":{
+        "VER":"1",
+        "DATE":[2026,5,31]
+    },
     "EU": {
         "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
         "namefr":"Europe",
