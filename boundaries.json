@@ -1,6 +1,6 @@
 {
     "DB:INFO":{
-        "VER":[1,1,0],
+        "VER":[1,1,1],
         "DATE":[2026,6,5],
         "PROVIDER":"METROP_LEARNING_ORGANISATION",
         "CONTENT_ADVISORY":{
@@ -23,183 +23,191 @@
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
                 "get": {
                     "ARA": {
-                        "content": "Data:France/Region/Auvergne-Rhône-Alpes.map",
+                        "content": "useInstead:OSMB:EU/FRA/Region/ara.geojson",
                         "get":{
                             "1":{
-                                "content":"useInstead:OSMB:france/departement-01-ain.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/1.geojson"
                             },
                             "3":{
-                                "content":"useInstead:OSMB:france/departement-03-allier.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/3.geojson"
                             },
                             "7":{
-                                "content":"useInstead:OSMB:france/departement-07-ardeche.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/7.geojson"
                             },
                             "15":{
-                                "content":"useInstead:OSMB:france/departement-15-cantal.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/15.geojson"
                             },
                             "26":{
-                                "content":"useInstead:OSMB:france/departement-26-drome.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/26.geojson"
                             },
                             "38":{
-                                "content":"useInstead:OSMB:france/departement-38-isere.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/38.geojson"
                             },
                             "42":{
-                                "content":"useInstead:OSMB:france/departement-42-loire.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/42.geojson"
                             },
                             "43":{
-                                "content":"useInstead:OSMB:france/departement-43-haute-loire.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/43.geojson"
                             },
                             "63":{
-                                "content":"useInstead:OSMB:france/departement-63-puy-de-dome.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/63.geojson"
                             },
                             "69":{
-                                "content":"useInstead:OSMB:france/departement-69-rhone.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/69.geojson"
                             },
                             "73":{
-                                "content":"useInstead:OSMB:france/departement-73-savoie.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/73.geojson"
                             },
                             "74":{
-                                "content":"useInstead:OSMB:france/departement-74-haute-savoie.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/74.geojson"
                             }
                         }
                     },
                     "BRE": {
-                        "content": "Data:France/Region/Bretagne.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/bre.geojson"
                     },
                     "PDL": {
-                        "content": "Data:France/Region/Pays de la Loire.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/pdl.geojson"
                     },
                     "NAQ": {
-                        "content": "Data:France/Region/Nouvelle-Aquitaine.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/naq.geojson"
                     },
                     "OCC": {
-                        "content": "Data:France/Region/Occitanie.map",
+                        "content": "useInstead:OSMB:EU/FRA/Region/occ.geojson",
                         "get":{
                             "9":{
-                                "content":"useInstead:OSMB:france/departement-09-ariege.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/9.geojson"
                             },
                             "11":{
-                                "content":"useInstead:OSMB:france/departement-11-aude.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/11.geojson"
                             },
                             "12":{
-                                "content":"useInstead:OSMB:france/departement-12-aveyron.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/12.geojson"
                             },
                             "30":{
-                                "content":"useInstead:OSMB:france/departement-30-gard.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/30.geojson"
                             },
                             "31":{
-                                "content":"useInstead:OSMB:france/departement-31-haute-garonne.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/31.geojson"
                             },
                             "32":{
-                                "content":"useInstead:OSMB:france/departement-32-gers.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/32.geojson"
                             },
                             "34":{
-                                "content":"useInstead:OSMB:france/departement-34-herault.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/34.geojson"
                             },
                             "46":{
-                                "content":"useInstead:OSMB:france/departement-46-lot.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/46.geojson"
                             },
                             "48":{
-                                "content":"useInstead:OSMB:france/departement-48-lozere.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/48.geojson"
                             },
                             "65":{
-                                "content":"useInstead:OSMB:france/departement-65-hautes-pyrenees.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/65.geojson"
                             },
                             "66":{
-                                "content":"useInstead:OSMB:france/departement-66-pyrenees-orientales.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/66.geojson"
                             },
                             "81":{
-                                "content":"useInstead:OSMB:france/departement-81-tarn.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/81.geojson"
                             },
                             "82":{
-                                "content":"useInstead:OSMB:france/departement-82-tarn-et-garonne.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/82.geojson"
                             }
                         }
                     },
                     "PAC": {
-                        "content": "Data:France/Region/ Provence-Alpes-Côte d'Azur.map",
+                        "content": "useInstead:OSMB:EU/FRA/Region/pac.geojson",
                         "get":{
                             "4":{
-                                "content":"useInstead:OSMB:france/departement-04-alpes-de-haute-provence.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/4.geojson"
                             },
                             "5":{
-                                "content":"useInstead:OSMB:france/departement-05-hautes-alpes.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/5.geojson"
                             },
                             "6":{
-                                "content":"useInstead:OSMB:france/departement-06-alpes-maritimes.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/6.geojson"
                             },
                             "13":{
-                                "content":"useInstead:OSMB:france/departement-13-bouches-du-rhone.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/13.geojson"
                             },
                             "83":{
-                                "content":"useInstead:OSMB:france/departement-83-var.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/83.geojson"
                             },
                             "84":{
-                                "content":"useInstead:OSMB:france/departement-84-vaucluse.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/84.geojson"
                             }
                         }
                     },
                     "COR": {
-                        "content": "Data:France/Region/Corse.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/cor.geojson",
+                        "get":{
+                            "2A":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/2A.geojson"
+                            },
+                            "2B":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/2B.geojson"
+                            }
+                        }
                     },
                     "BFC": {
-                        "content": "Data:France/Region/Bourgogne-Franche-Comté.map",
+                        "content": "useInstead:OSMB:EU/FRA/Region/bfc.geojson",
                         "get":{
                             "21":{
-                                "content":"useInstead:OSMB:france/departement-21-cote-d-or.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/21.geojson"
                             },
                             "25":{
-                                "content":"useInstead:OSMB:france/departement-25-doubs.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/25.geojson"
                             },
                             "39":{
-                                "content":"useInstead:OSMB:france/departement-39-jura.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/39.geojson"
                             },
                             "58":{
-                                "content":"useInstead:OSMB:france/departement-58-nievre.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/58.geojson"
                             },
                             "70":{
-                                "content":"useInstead:OSMB:france/departement-70-haute-saone.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/70.geojson"
                             },
                             "71":{
-                                "content":"useInstead:OSMB:france/departement-71-saone-et-loire.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/71.geojson"
                             },
                             "89":{
-                                "content":"useInstead:OSMB:france/departement-89-yonne.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/89.geojson"
                             },
                             "90":{
-                                "content":"useInstead:OSMB:france/departement-90-territoire-de-belfort.geojson"
+                                "content":"useInstead:OSMB:EU/FRA/Departement/90.geojson"
                             }
                         }
                     },
                     "CVL": {
-                        "content": "Data:France/Region/Centre-Val de Loire.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/cvl.geojson"
                     },
                     "IDF": {
-                        "content": "Data:France/Region/Île-de-France.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/idf.geojson"
                     },
                     "NOR": {
-                        "content": "Data:France/Region/Normandie.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/nor.geojson"
                     },
                     "HDF": {
-                        "content": "Data:France/Region/Hauts-de-France.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/hdf.geojson"
                     },
                     "GES": {
-                        "content": "Data:France/Region/Grand Est.map"
+                        "content": "useInstead:OSMB:EU/FRA/Region/ges.geojson"
                     },
                     "GLP":{
-                        "content":"Data:Guadeloupe.map"
+                        "content":"useInstead:OSMB:EU/FRA/Departement/971.geojson"
                     },
                     "GUF":{
-                        "content":"Data:Guyane francaise.map"
+                        "content":"useInstead:OSMB:EU/FRA/Departement/973.geojson"
                     },
                     "MTQ":{
-                        "content":"Data:Martinique.map"
+                        "content":"useInstead:OSMB:EU/FRA/Departement/972.geojson"
                     },
                     "REU":{
-                        "content":"Data:La Reunion.map"
+                        "content":"useInstead:OSMB:EU/FRA/Departement/974.geojson"
                     },
                     "MYT":{
-                        "content":"Data:Mayotte.map"
+                        "content":"useInstead:OSMB:EU/FRA/Departement/976.geojson"
                     }
                 }
             },
