@@ -1,7 +1,11 @@
 {
     "DB:INFO":{
-        "VER":"1",
-        "DATE":[2026,5,31]
+        "VER":[1,1,0],
+        "DATE":[2026,5,31],
+        "PROVIDER":"METROP_LEARNING_ORGANISATION",
+        "CONTENT_ADVISORY":{
+            "CONTESTED_TERRITORY":true
+        }
     },
     "EU": {
         "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
@@ -3251,6 +3255,18 @@
     },
     "WD":{
         "namefr":"Monde",
-        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg"
+        "nameen":"World",
+        "namejp":"世界",
+        "nameit":"Mondo",
+        "namees":"Mundo",
+        "nameeo":"Mondo",
+        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ef/International_Flag_of_Planet_Earth.svg",
+        "population":"8 300 000 000",
+        "get":{
+            "ORG:ONU":{
+                "namefr":"Organisation des Nations unies",
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg"
+            }
+        }
     }
 }
