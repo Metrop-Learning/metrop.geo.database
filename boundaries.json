@@ -2214,7 +2214,7 @@
                         "nameen":"Sabah"
                     },
                     "SWK":{
-                        "content":"useInstead:OSMB:malaysia/sbh.geojson",
+                        "content":"useInstead:OSMB:malaysia/swk.geojson",
                         "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/Flag_of_Sarawak.svg",
                         "namefr":"Sarawak",
                         "nameen":"Sarawak"
