@@ -1,8 +1,9 @@
 {
     "DB:INFO":{
-        "VER":[1,1,1],
-        "DATE":[2026,6,5],
+        "VER":[1,2,0],
+        "DATE":[2026,6,16],
         "PROVIDER":"METROP_LEARNING_ORGANISATION",
+        "TYPE":"MODERN_DAY",
         "CONTENT_ADVISORY":{
             "CONTESTED_TERRITORY":true
         }
@@ -529,27 +530,126 @@
                 "nameeo":"Unuiĝinta Reĝlando",
                 "get":{
                     "ENG":{
-                        "content":"Data:England.map"
+                        "content":"Data:England.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg",
+                        "namefr":"Angleterre",
+                        "nameen":"England"
                     },
                     "SCT":{
-                        "content":"Data:Scotland.map"
+                        "content":"Data:Scotland.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+                        "namefr":"Écosse",
+                        "nameen":"Scotland"
                     },
                     "WLS":{
-                        "content":"Data:Wales.map"
+                        "content":"Data:Wales.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg",
+                        "namefr":"Pays de Galles",
+                        "nameen":"Wales"
                     },
                     "NIR":{
-                        "content":"Data:Northern Ireland.map"
+                        "content":"Data:Northern Ireland.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg",
+                        "namefr":"Irlande du Nord",
+                        "nameen":"Northern Ireland"
+                    },
+                    "SBA":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/sba.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg",
+                        "namefr":"Akrotiri et Dhekelia",
+                        "nameen":"Akrotiri and Dhekelia"
+                    },
+                    "VGB":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/vgb.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg",
+                        "namefr":"Îles Vierges britanniques",
+                        "nameen":"British Virgin Islands"
+                    },
+                    "MSR":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/msr.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Montserrat.svg",
+                        "namefr":"Montserrat",
+                        "nameen":"Montserrat"
+                    },
+                    "TCA":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/tca.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg",
+                        "namefr":"Îles Turques-et-Caïques",
+                        "nameen":"Turks and Caicos Islands"
+                    },
+                    "DIS:GIB":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/gib.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Gibraltar.svg",
+                        "namefr":"Gibraltar",
+                        "nameen":"Gibraltar"
+                    },
+                    "SHN":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/shn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg",
+                        "namefr":"Sainte-Hélène, Ascension et Tristan da Cunha",
+                        "nameen":"Saint Helena, Ascension and Tristan da Cunha"
+                    },
+                    "DIS:SGS":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/sgs.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg",
+                        "namefr":"Géorgie du Sud-et-les îles Sandwich du Sud",
+                        "nameen":"South Georgia and the South Sandwich Islands"
+                    },
+                    "BMU":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/bmu.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
+                        "namefr":"Bermudes",
+                        "nameen":"Bermuda"
+                    },
+                    "DIS:IOT":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/iot.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_the_British_Indian_Ocean_Territory_2025.svg",
+                        "namefr":"Territoire britannique de l'océan Indien",
+                        "nameen":"British Indian Ocean Territory"
+                    },
+                    "AIA":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/aia.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Anguilla.svg",
+                        "namefr":"Anguilla",
+                        "nameen":"Anguilla"
+                    },
+                    "CYM":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/cym.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_the_Cayman_Islands.svg",
+                        "namefr":"Îles Caïmans",
+                        "nameen":"Cayman Islands"
+                    },
+                    "FLK":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/flk.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_Falkland_Islands.svg",
+                        "namefr":"Îles Malouines",
+                        "nameen":"Falkland Islands"
+                    },
+                    "PCN":{
+                        "content":"useInstead:OSMB:EU/UK/OUT/pcn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_the_Pitcairn_Islands.svg",
+                        "namefr":"Îles Pitcairn",
+                        "nameen":"Pitcairn Islands"
                     }
                 }
             },
             "UKC:IMN":{
-                "content":"Data:Isle of Man.map"
+                "content":"Data:Isle of Man.map",
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Isle_of_Man.svg",
+                "namefr":"Île de Man",
+                "nameen":"Isle of Man"
             },
             "UKC:JEY":{
-                "content":"Data:Jersey.map"
+                "content":"Data:Jersey.map",
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg",
+                "namefr":"Jersey",
+                "nameen":"Jersey"
             },
             "UKC:GGY":{
-                "content":"Data:Guernsey.map"
+                "content":"Data:Guernsey.map",
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg",
+                "namefr":"Bailliage de Guernesey",
+                "nameen":"Bailiwick of Guernsey"
             },
             "IRL":{
                 "content":"Data:Ireland.map",
@@ -2073,8 +2173,107 @@
             "MYS":{
                 "content":"Data:Malaysia.map",
                 "namefr":"Malaisie",
+                "namen":"Malaysia",
                 "population":"35 126 298",
-                "flag":"https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg",
+                "get":{
+                    "KUL":{
+                        "content":"useInstead:OSMB:malaysia/kul.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Kuala_Lumpur%2C_Malaysia.svg",
+                        "namefr":"Kuala Lumpur",
+                        "nameen":"Kuala Lumpur"
+                    },
+                    "SGR":{
+                        "content":"useInstead:OSMB:malaysia/sgr.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Flag_of_Selangor.svg",
+                        "namefr":"Selangor",
+                        "nameen":"Selangor"
+                    },
+                    "JHR":{
+                        "content":"useInstead:OSMB:malaysia/jhr.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Johor.svg",
+                        "namefr":"Johor",
+                        "nameen":"Johor"
+                    },
+                    "MLK":{
+                        "content":"useInstead:OSMB:malaysia/mlk.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Malacca.svg",
+                        "namefr":"Melaka",
+                        "nameen":"Melaka"
+                    },
+                    "NSN":{
+                        "content":"useInstead:OSMB:malaysia/nsn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_Negeri_Sembilan.svg",
+                        "namefr":"Negeri Sembilan",
+                        "nameen":"Negeri Sembilan"
+                    },
+                    "SBH":{
+                        "content":"useInstead:OSMB:malaysia/sbh.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Sabah.svg",
+                        "namefr":"Sabah",
+                        "nameen":"Sabah"
+                    },
+                    "SWK":{
+                        "content":"useInstead:OSMB:malaysia/sbh.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/Flag_of_Sarawak.svg",
+                        "namefr":"Sarawak",
+                        "nameen":"Sarawak"
+                    },
+                    "KTN":{
+                        "content":"useInstead:OSMB:malaysia/ktn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Kelantan.svg",
+                        "namefr":"Kelantan",
+                        "nameen":"Kelantan"
+                    },
+                    "TGN":{
+                        "content":"useInstead:OSMB:malaysia/tgn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/6b/Flag_of_Terengganu.svg",
+                        "namefr":"Terengganu",
+                        "nameen":"Terengganu"
+                    },
+                    "PHG":{
+                        "content":"useInstead:OSMB:malaysia/phg.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Pahang.svg",
+                        "namefr":"Pahang",
+                        "nameen":"Pahang"
+                    },
+                    "KDH":{
+                        "content":"useInstead:OSMB:malaysia/kdh.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/cc/Flag_of_Kedah.svg",
+                        "namefr":"Kedah",
+                        "nameen":"Kedah"
+                    },
+                    "PJY":{
+                        "content":"useInstead:OSMB:malaysia/pjy.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Putrajaya.svg",
+                        "namefr":"Putrajaya",
+                        "nameen":"Putrajaya"
+                    },
+                    "PLS":{
+                        "content":"useInstead:OSMB:malaysia/pls.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Perlis.svg",
+                        "namefr":"Perlis",
+                        "nameen":"Perlis"
+                    },
+                    "PRK":{
+                        "content":"useInstead:OSMB:malaysia/prk.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_Perak.svg",
+                        "namefr":"Perak",
+                        "nameen":"Perak"
+                    },
+                    "PNG":{
+                        "content":"useInstead:OSMB:malaysia/png.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Penang_%28Malaysia%29.svg",
+                        "namefr":"Penang",
+                        "nameen":"Penang"
+                    },
+                    "LBN":{
+                        "content":"useInstead:OSMB:malaysia/lbn.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_Labuan.svg",
+                        "namefr":"Labuan",
+                        "nameen":"Labuan"
+                    }
+                }
             },
             "KHM":{
                 "content":"Data:Cambodia.map",
@@ -3260,6 +3459,12 @@
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg"
             }
         }
+    },
+    "AN":{
+        "content":"Data:Antarctica.map",
+        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg",
+        "namefr":"Antarctique",
+        "nameen":"Antarctica"
     },
     "WD":{
         "namefr":"Monde",

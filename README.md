@@ -2,6 +2,28 @@
 
 The database of [Metrop](https://github.com/Metrop-Learning/Metrop).
 
+## Database guideline
+
+See the guideline at [https://metrop-learning.github.io/Tools-and-Documentation/](https://metrop-learning.github.io/Tools-and-Documentation/).
+
+## Tag explanation
+Country and territories can have complex statuses. To help understand each status, we have created tags which can be placed alongside the territory's code.
+
+| CODE | Definition | Use case | Example |
+|:--:|--|--|--|
+| NWR | Not Widely Recognized | Countries or territories with recognition issues | Kosovo, Taiwan |
+| DIS | Disputed / Contested / Claimed | Territories contested between multiple parties (can be a peaceful contestation) | Gibraltar, Kashmir |
+| UKC | UK Crown Dependency | British Crown Dependencies — a unique status, neither a sovereign country nor a British Overseas Territory, nor part of the United Kingdom | Jersey, Guernsey, Isle of Man |
+| ISL | Island / Landmass | A landmass shared between multiple administrative entities | Hispaniola, Borneo |
+| NAB | Not an Administrative Border | A territory with a complex status that does not fit any other category — always accompanied by a specific explanation | — |
+| INA | International Administration | Territories administered by the UN or a multinational force rather than a single state | Kosovo (1999–2008), East Timor (1999–2002) |
+| BUF | Buffer Zone | Demilitarized or neutral zones under international supervision, separating two or more conflicting parties | Korean DMZ, UN Buffer Zone in Cyprus |
+| ANX | Annexed | Territories unilaterally annexed by a state and not recognized as such by the international community — distinct from DIS which can be a peaceful diplomatic dispute | Crimea, Golan Heights |
+| UNI | Uninhabited | Territories with no permanent population | Clipperton Island, Heard Island |
+| ORG | Organisation | Worlds Organisations (Not territories) | UN, EU, OMS... |
+
+Antarctica and the Arctic are considered by Metrop as uninhabited and ungoverned territories. Due to the highly contested and unsettled nature of their territorial claims, Metrop takes no position on their sovereignty and will not cover them as administrative or political entities.
+
 # License
 
 ## Application Code
