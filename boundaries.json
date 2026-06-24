@@ -1,6 +1,6 @@
 {
     "DB:INFO":{
-        "VER":[1,2,2],
+        "VER":[1,2,3],
         "DATE":[2026,6,24],
         "PROVIDER":"METROP_LEARNING_ORGANISATION",
         "TYPE":"MODERN_DAY",
@@ -2468,43 +2468,82 @@
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
                 "get":{
                     "ON":{
-                        "content":"Data:Canada/Ontario.map"
+                        "content":"Data:Canada/Ontario.map",
+                        "namefr":"Ontario",
+                        "nameen":"Ontario",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Ontario.svg"
                     },
                     "QC":{
-                        "content":"Data:Canada/Québec.map"
+                        "content":"Data:Canada/Québec.map",
+                        "namefr":"Québec",
+                        "nameen":"Quebec",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg"
                     },
                     "NB":{
-                        "content":"Data:Canada/New Brunswick.map"
+                        "content":"Data:Canada/New Brunswick.map",
+                        "namefr":"Nouveau-Brunswick",
+                        "nameen":"New Brunswick",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_New_Brunswick.svg"
                     },
                     "PE":{
-                        "content":"Data:Canada/Prince Edward Island.map"
+                        "content":"Data:Canada/Prince Edward Island.map",
+                        "namefr":"Île-du-Prince-Édouard",
+                        "nameen":"Prince Edward Island",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/29/Official_Flag_of_Prince_Edward_Island.svg"
                     },
                     "NS":{
-                        "content":"Data:Canada/Nova Scotia.map"
+                        "content":"Data:Canada/Nova Scotia.map",
+                        "namefr":"Nouvelle-Écosse",
+                        "nameen":"Nova Scotia",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Nova_Scotia.svg"
                     },
                     "NL":{
-                        "content":"Data:Canada/Newfoundland and Labrador.map"
+                        "content":"Data:Canada/Newfoundland and Labrador.map",
+                        "namefr":"Terre-Neuve-et-Labrador",
+                        "nameen":"Newfoundland and Labrador",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Newfoundland_and_Labrador.svg"
                     },
                     "NU":{
-                        "content":"Data:Canada/Nunavut.map"
+                        "content":"Data:Canada/Nunavut.map",
+                        "namefr":"Nunavut",
+                        "nameen":"Nunavut",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/90/Flag_of_Nunavut.svg"
                     },
                     "NT":{
-                        "content":"Data:Canada/Northwest Territories.map"
+                        "content":"Data:Canada/Northwest Territories.map",
+                        "namefr":"Territoires du Nord-Ouest",
+                        "nameen":"Northwest Territories",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Northwest_Territories.svg"
                     },
                     "YT":{
-                        "content":"Data:Canada/Yukon.map"
+                        "content":"Data:Canada/Yukon.map",
+                        "namefr":"Yukon",
+                        "nameen":"Yukon",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_Yukon.svg"
                     },
                     "BC":{
-                        "content":"Data:Canada/British Columbia.map"
+                        "content":"Data:Canada/British Columbia.map",
+                        "namefr":"Colombie-Britannique",
+                        "nameen":"British Columbia",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_British_Columbia.svg"
                     },
                     "AB":{
-                        "content":"Data:Canada/Alberta.map"
+                        "content":"Data:Canada/Alberta.map",
+                        "namefr":"Alberta",
+                        "nameen":"Alberta",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f5/Flag_of_Alberta.svg"
                     },
                     "SK":{
-                        "content":"Data:Canada/Saskatchewan.map"
+                        "content":"Data:Canada/Saskatchewan.map",
+                        "namefr":"Saskatchewan",
+                        "nameen":"Saskatchewan",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_Saskatchewan.svg"
                     },
                     "MB":{
-                        "content":"Data:Canada/Manitoba.map"
+                        "content":"Data:Canada/Manitoba.map",
+                        "namefr":"Manitoba",
+                        "nameen":"Manitoba",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Manitoba.svg"
                     }
                 }
             },
