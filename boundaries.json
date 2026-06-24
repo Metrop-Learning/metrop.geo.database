@@ -1,6 +1,6 @@
 {
     "DB:INFO":{
-        "VER":[1,2,1],
+        "VER":[1,2,2],
         "DATE":[2026,6,24],
         "PROVIDER":"METROP_LEARNING_ORGANISATION",
         "TYPE":"MODERN_DAY",
@@ -1489,6 +1489,7 @@
             "AFG":{
                 "content":"Data:Afghanistan.map",
                 "namefr":"Afghanistan",
+                "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
                 "population":"39 232 003"
             },
             "BGD":{

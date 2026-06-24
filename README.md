@@ -24,6 +24,11 @@ Country and territories can have complex statuses. To help understand each statu
 
 Antarctica and the Arctic are considered by Metrop as uninhabited and ungoverned territories. Due to the highly contested and unsettled nature of their territorial claims, Metrop takes no position on their sovereignty and will not cover them as administrative or political entities.
 
+# Legal warning
+The official flag of Afghanistan has changed since the Taliban takeover in August 2021. The flag now displayed is that of the Islamic Emirate of Afghanistan, established by the Taliban, an organization designated as terrorist by numerous countries and international bodies. Metrop uses this flag in a strictly educational context and does not endorse or support the Taliban's ideology or actions.
+
+The display of this flag for non-educational purposes is restricted or prohibited in several countries. As an educational platform, Metrop falls within the legally recognized educational exemption and disclaims any association with or liability for illegal use.
+
 # License
 
 ## Application Code
