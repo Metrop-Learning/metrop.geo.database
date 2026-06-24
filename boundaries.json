@@ -1349,7 +1349,7 @@
                 "population":"623 633",
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg"
             },
-            "RKS":{
+            "NWR:RKS":{
                 "content":"Data:Kosovo.map",
                 "namefr":"Kosovo",
                 "population":"1 602 515",
@@ -2419,7 +2419,7 @@
                 "population":"3 524 788",
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg"
             },
-            "TWN":{
+            "NWR:TWN":{
                 "content":"Data:Taiwan.map",
                 "namefr":"Taïwan",
                 "population":"23 588 613",
@@ -3162,7 +3162,7 @@
                 "population":"1 379 365",
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg"
             },
-            "C:EH":{
+            "NWR:EH":{
                 "content":"Data:Sahrawi Arab Democratic Republic.map",
                 "namefr":"République arabe sahraouie démocratique",
                 "flag":"https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"
