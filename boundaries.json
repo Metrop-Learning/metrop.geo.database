@@ -1,5 +1,13 @@
 {
     "DB:INFO": {
+        "ID":"metrop.geo.database",
+        "NAME": {
+            "en":"Default Metrop Geo Database"
+        },
+        "API_VER":[
+            1,
+            0
+        ]
         "VER": [
             1,
             3,
@@ -14,7 +22,8 @@
         "TYPE": "MODERN_DAY",
         "CONTENT_ADVISORY": {
             "CONTESTED_TERRITORY": true
-        }
+        },
+        "LICENSE":"https://metrop-learning.github.io/metrop.geo.database/LICENSE"
     },
     "EU": {
         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
