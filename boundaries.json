@@ -2,13 +2,13 @@
     "DB:INFO": {
         "VER": [
             1,
-            3,
+            4,
             0
         ],
         "DATE": [
             2026,
             7,
-            2
+            16
         ],
         "PROVIDER": "METROP_LEARNING_ORGANISATION",
         "TYPE": "MODERN_DAY",
@@ -66,10 +66,41 @@
                         }
                     },
                     "BRE": {
-                        "content": "useInstead:OSMB:EU/FRA/Region/bre.geojson"
+                        "content": "useInstead:OSMB:EU/FRA/Region/bre.geojson",
+                        "get":{
+                            "29":{
+                                "content": "useInstead:OSMB:EU/FRA/Departement/29.geojson"
+                            },
+                            "56":{
+                                "content": "useInstead:OSMB:EU/FRA/Departement/56.geojson"
+                            },
+                            "22":{
+                                "content": "useInstead:OSMB:EU/FRA/Departement/22.geojson"
+                            },
+                            "35":{
+                                "content": "useInstead:OSMB:EU/FRA/Departement/35.geojson"
+                            }
+                        }
                     },
                     "PDL": {
-                        "content": "useInstead:OSMB:EU/FRA/Region/pdl.geojson"
+                        "content": "useInstead:OSMB:EU/FRA/Region/pdl.geojson",
+                        "get":{
+                            "44":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/44.geojson"
+                            },
+                            "49":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/49.geojson"
+                            },
+                            "53":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/53.geojson"
+                            },
+                            "72":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/72.geojson"
+                            },
+                            "85":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/85.geojson"
+                            }
+                        }
                     },
                     "NAQ": {
                         "content": "useInstead:OSMB:EU/FRA/Region/naq.geojson"
@@ -182,13 +213,50 @@
                         }
                     },
                     "CVL": {
-                        "content": "useInstead:OSMB:EU/FRA/Region/cvl.geojson"
+                        "content": "useInstead:OSMB:EU/FRA/Region/cvl.geojson",
+                        "get":{
+                            "18":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/18.geojson"
+                            },
+                            "28":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/28.geojson"
+                            },
+                            "36":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/36.geojson"
+                            },
+                            "37":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/37.geojson"
+                            },
+                            "41":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/41.geojson"
+                            },
+                            "45":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/45.geojson"
+                            }
+                        }
                     },
                     "IDF": {
                         "content": "useInstead:OSMB:EU/FRA/Region/idf.geojson"
                     },
                     "NOR": {
-                        "content": "useInstead:OSMB:EU/FRA/Region/nor.geojson"
+                        "content": "useInstead:OSMB:EU/FRA/Region/nor.geojson",
+                        "get":{
+                            "14":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/14.geojson"
+                            },
+                            "27":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/27.geojson"
+                            },
+                            "50":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/50.geojson"
+                            },
+                            "61":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/61.geojson"
+                            },
+                            "76":{
+                                "content":"useInstead:OSMB:EU/FRA/Departement/76.geojson"
+                            }
+                        }
                     },
                     "HDF": {
                         "content": "useInstead:OSMB:EU/FRA/Region/hdf.geojson"
@@ -227,52 +295,68 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
                 "get": {
                     "BW": {
-                        "content": "Data:Baden-Württemberg.map"
+                        "content": "Data:Baden-Württemberg.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Baden-W%C3%BCrttemberg.svg"
                     },
                     "NI": {
-                        "content": "Data:Niedersachsen.map"
+                        "content": "Data:Niedersachsen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/81/Flag_of_Lower_Saxony.svg"
                     },
                     "BY": {
-                        "content": "Data:Bayern.map"
+                        "content": "Data:Bayern.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_Bavaria_(striped).svg"
                     },
                     "BE": {
-                        "content": "Data:Berlin.map"
+                        "content": "Data:Berlin.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Berlin.svg?uselang=fr"
                     },
                     "BB": {
-                        "content": "Data:Brandenburg.map"
+                        "content": "Data:Brandenburg.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Brandenburg.svg?uselang=fr"
                     },
                     "HB": {
-                        "content": "Data:Bremen.map"
+                        "content": "Data:Bremen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Bremen.svg?uselang=fr"
                     },
                     "HH": {
-                        "content": "Data:Hamburg.map"
+                        "content": "Data:Hamburg.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Hamburg.svg?uselang=fr"
                     },
                     "HE": {
-                        "content": "Data:Hessen.map"
+                        "content": "Data:Hessen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Hesse.svg?uselang=fr"
                     },
                     "MV": {
-                        "content": "Data:Mecklenburg-Vorpommern.map"
+                        "content": "Data:Mecklenburg-Vorpommern.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Mecklenburg-Western_Pomerania_(state).svg"
                     },
                     "NW": {
-                        "content": "Data:Nordrhein-Westfalen.map"
+                        "content": "Data:Nordrhein-Westfalen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_North_Rhine-Westphalia.svg?uselang=fr"
                     },
                     "RP": {
-                        "content": "Data:Rheinland-Pfalz.map"
+                        "content": "Data:Rheinland-Pfalz.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Rhineland-Palatinate.svg?uselang=fr"
                     },
                     "SL": {
-                        "content": "Data:Saarland.map"
+                        "content": "Data:Saarland.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Saarland.svg?uselang=fr"
                     },
                     "SN": {
-                        "content": "Data:Sachsen.map"
+                        "content": "Data:Sachsen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Saxony.svg"
                     },
                     "ST": {
-                        "content": "Data:Sachsen-Anhalt.map"
+                        "content": "Data:Sachsen-Anhalt.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Saxony-Anhalt.svg"
                     },
                     "SH": {
-                        "content": "Data:Schleswig-Holstein.map"
+                        "content": "Data:Schleswig-Holstein.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Schleswig-Holstein.svg"
                     },
                     "TH": {
-                        "content": "Data:Thüringen.map"
+                        "content": "Data:Thüringen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Thuringia.svg"
                     }
                 },
                 "name": {
@@ -290,82 +374,108 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg",
                 "get": {
                     "UR": {
-                        "content": "Data:Uri.map"
+                        "content": "Data:Uri.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Canton_of_Uri.svg"
                     },
                     "SZ": {
-                        "content": "Data:Schwyz.map"
+                        "content": "Data:Schwyz.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Canton_of_Schwyz.svg"
                     },
                     "OW": {
-                        "content": "Data:Obwalden.map"
+                        "content": "Data:Obwalden.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/76/Flag_of_Canton_of_Obwalden.svg"
                     },
                     "NW": {
-                        "content": "Data:Nidwalden.map"
+                        "content": "Data:Nidwalden.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Canton_of_Nidwalden.svg"
                     },
                     "LU": {
-                        "content": "Data:Lucerne.map"
+                        "content": "Data:Lucerne.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_Canton_of_Lucerne.svg"
                     },
                     "ZH": {
-                        "content": "Data:Zürich.map"
+                        "content": "Data:Zürich.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Canton_of_Z%C3%BCrich.svg"
                     },
                     "GL": {
-                        "content": "Data:Glarus.map"
+                        "content": "Data:Glarus.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Canton_of_Glarus.svg"
                     },
                     "ZG": {
-                        "content": "Data:Zug.map"
+                        "content": "Data:Zug.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Canton_of_Zug.svg"
                     },
                     "BE": {
-                        "content": "Data:Bern.map"
+                        "content": "Data:Bern.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Canton_of_Bern.svg"
                     },
                     "FR": {
-                        "content": "Data:Fribourg.map"
+                        "content": "Data:Fribourg.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Canton_of_Fribourg.svg"
                     },
                     "SO": {
-                        "content": "Data:Solothurn.map"
+                        "content": "Data:Solothurn.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Canton_of_Solothurn.svg"
                     },
                     "BS": {
-                        "content": "Data:Basel-Stadt.map"
+                        "content": "Data:Basel-Stadt.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a3/Flag_of_Canton_of_Basel.svg"
                     },
                     "BL": {
-                        "content": "Data:Basel-Landschaft.map"
+                        "content": "Data:Basel-Landschaft.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Canton_of_Basel_Land.svg"
                     },
                     "SH": {
-                        "content": "Data:Schaffhausen.map"
+                        "content": "Data:Schaffhausen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b0/Flag_of_Canton_of_Schaffhausen.svg"
                     },
                     "AR": {
-                        "content": "Data:Appenzell Ausserrhoden.map"
+                        "content": "Data:Appenzell Ausserrhoden.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Canton_of_Appenzell_Ausserrhoden.svg"
                     },
                     "AI": {
-                        "content": "Data:Appenzell Innerrhoden.map"
+                        "content": "Data:Appenzell Innerrhoden.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Canton_of_Appenzell_Innerrhoden.svg"
                     },
                     "SG": {
-                        "content": "Data:Sankt Gallen.map"
+                        "content": "Data:Sankt Gallen.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a1/Flag_of_Canton_of_Sankt_Gallen.svg"
                     },
                     "GR": {
-                        "content": "Data:Graubünden.map"
+                        "content": "Data:Graubünden.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Canton_of_Graub%C3%BCnden.svg"
                     },
                     "AG": {
-                        "content": "Data:Aargau.map"
+                        "content": "Data:Aargau.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_Canton_of_Aargau.svg"
                     },
                     "TG": {
-                        "content": "Data:Thurgau.map"
+                        "content": "Data:Thurgau.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_Canton_of_Thurgau.svg"
                     },
                     "TI": {
-                        "content": "Data:Ticino.map"
+                        "content": "Data:Ticino.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Canton_of_Ticino.svg"
                     },
                     "VD": {
-                        "content": "Data:Vaud.map"
+                        "content": "Data:Vaud.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/df/Flag_of_Canton_of_Vaud.svg"
                     },
                     "NE": {
-                        "content": "Data:Neuchâtel.map"
+                        "content": "Data:Neuchâtel.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/57/Flag_of_Canton_of_Neuch%C3%A2tel.svg"
                     },
                     "GE": {
-                        "content": "Data:Genève.map"
+                        "content": "Data:Genève.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a6/CHE_Canton_de_Gen%C3%A8ve_Flag.svg"
                     },
                     "VS": {
-                        "content": "Data:Valais.map"
+                        "content": "Data:Valais.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Canton_of_Valais.svg"
                     },
                     "JU": {
-                        "content": "Data:Jura (Switzerland).map"
+                        "content": "Data:Jura (Switzerland).map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Canton_of_Jura.svg"
                     }
                 },
                 "name": {
@@ -383,64 +493,84 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
                 "get": {
                     "ABR": {
-                        "content": "Data:Italy/Region/Abruzzo.map"
+                        "content": "Data:Italy/Region/Abruzzo.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Abruzzo.svg"
                     },
                     "BAS": {
-                        "content": "Data:Italy/Region/Basilicata.map"
+                        "content": "Data:Italy/Region/Basilicata.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Basilicata.svg"
                     },
                     "CAL": {
-                        "content": "Data:Italy/Region/Calabria.map"
+                        "content": "Data:Italy/Region/Calabria.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8b/Flag_of_Calabria.svg"
                     },
                     "CAM": {
-                        "content": "Data:Italy/Region/Campania.map"
+                        "content": "Data:Italy/Region/Campania.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c5/Flag_of_Campania.svg"
                     },
                     "EMR": {
-                        "content": "Data:Italy/Region/Emilia-Romagna.map"
+                        "content": "Data:Italy/Region/Emilia-Romagna.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Emilia-Romagna_(de_facto).svg"
                     },
                     "FVG": {
-                        "content": "Data:Italy/Region/Friuli Venezia Giulia.map"
+                        "content": "Data:Italy/Region/Friuli Venezia Giulia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/55/Flag_of_Friuli-Venezia_Giulia.svg"
                     },
                     "LAZ": {
-                        "content": "Data:Italy/Region/Lazio.map"
+                        "content": "Data:Italy/Region/Lazio.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Flag_of_Lazio.svg"
                     },
                     "LIG": {
-                        "content": "Data:Italy/Liguria.map"
+                        "content": "Data:Italy/Liguria.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Liguria.svg"
                     },
                     "LOM": {
-                        "content": "Data:Italy/Region/Lombardy.map"
+                        "content": "Data:Italy/Region/Lombardy.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Lombardy.svg"
                     },
                     "MAR": {
-                        "content": "Data:Italy/Region/Marche.map"
+                        "content": "Data:Italy/Region/Marche.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Marche.svg"
                     },
                     "MOL": {
-                        "content": "Data:Italy/Region/Molise.map"
+                        "content": "Data:Italy/Region/Molise.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Molise.svg"
                     },
                     "UMB": {
-                        "content": "Data:Italy/Region/Umbria.map"
+                        "content": "Data:Italy/Region/Umbria.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/cc/Flag_of_Umbria.svg"
                     },
                     "PMN": {
-                        "content": "Data:Italy/Piedmont.map"
+                        "content": "Data:Italy/Piedmont.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Piedmont.svg"
                     },
                     "PUG": {
-                        "content": "Data:Italy/Region/Apulia.map"
+                        "content": "Data:Italy/Region/Apulia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Apulia.svg"
                     },
                     "SAR": {
-                        "content": "Data:Italy/Region/Sardinia.map"
+                        "content": "Data:Italy/Region/Sardinia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Sardinia.svg"
                     },
                     "SIC": {
-                        "content": "Data:Italy/Region/Sicily.map"
+                        "content": "Data:Italy/Region/Sicily.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Sicily_(revised).svg"
                     },
                     "TOS": {
-                        "content": "Data:Italy/Region/Tuscany.map"
+                        "content": "Data:Italy/Region/Tuscany.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Tuscany.svg"
                     },
                     "TAA": {
-                        "content": "Data:Italy/Region/Trentino-South Tyrol.map"
+                        "content": "Data:Italy/Region/Trentino-South Tyrol.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Flag_of_Trentino-South_Tyrol.svg"
                     },
                     "VAO": {
-                        "content": "useInstead:OSMB:aosta.geojson"
+                        "content": "useInstead:OSMB:aosta.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/90/Flag_of_Valle_d'Aosta.svg"
                     },
                     "VEN": {
-                        "content": "Data:Italy/Region/Veneto.map"
+                        "content": "Data:Italy/Region/Veneto.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Flag_of_Veneto.svg"
                     }
                 },
                 "name": {
@@ -458,61 +588,80 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
                 "get": {
                     "AN": {
-                        "content": "Data:Spain/Andalusia.map"
+                        "content": "Data:Spain/Andalusia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_Andaluc%C3%ADa.svg"
                     },
                     "AR": {
-                        "content": "Data:Spain/Aragón.map"
+                        "content": "Data:Spain/Aragón.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_Aragon.svg"
                     },
                     "AS": {
-                        "content": "Data:Spain/Asturias.map"
+                        "content": "Data:Spain/Asturias.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Asturias.svg"
                     },
                     "BA": {
-                        "content": "Data:Spain/Balearic Islands.map"
+                        "content": "Data:Spain/Balearic Islands.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_the_Balearic_Islands.svg"
                     },
                     "CN": {
-                        "content": "Data:Spain/Canary Islands.map"
+                        "content": "Data:Spain/Canary Islands.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_the_Canary_Islands_(simple).svg"
                     },
                     "CB": {
-                        "content": "Data:Spain/Cantabria.map"
+                        "content": "Data:Spain/Cantabria.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Cantabria_(Official).svg"
                     },
                     "CL": {
-                        "content": "Data:Spain/Castile and León.map"
+                        "content": "Data:Spain/Castile and León.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Castile_and_Le%C3%B3n.svg"
                     },
                     "CM": {
-                        "content": "Data:Spain/Castile-La Mancha.map"
+                        "content": "Data:Spain/Castile-La Mancha.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Bandera_Castilla-La_Mancha.svg"
                     },
                     "CT": {
-                        "content": "Data:Spain/Catalonia.map"
+                        "content": "Data:Spain/Catalonia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Catalonia.svg"
                     },
                     "EX": {
-                        "content": "Data:Spain/Extremadura.map"
+                        "content": "Data:Spain/Extremadura.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Extremadura%2C_Spain_(with_coat_of_arms).svg"
                     },
                     "GA": {
-                        "content": "Data:Spain/Galicia.map"
+                        "content": "Data:Spain/Galicia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Galicia.svg"
                     },
                     "MD": {
-                        "content": "Data:Spain/Madrid.map"
+                        "content": "Data:Spain/Madrid.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_the_Community_of_Madrid.svg"
                     },
                     "MC": {
-                        "content": "Data:Spain/Murcia.map"
+                        "content": "Data:Spain/Murcia.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_Region_of_Murcia.svg"
                     },
                     "NC": {
-                        "content": "Data:Spain/Navarra.map"
+                        "content": "Data:Spain/Navarra.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/36/Bandera_de_Navarra.svg"
                     },
                     "PV": {
-                        "content": "Data:Spain/Basque Country.map"
+                        "content": "Data:Spain/Basque Country.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/2d/Flag_of_the_Basque_Country.svg"
                     },
                     "RI": {
-                        "content": "Data:Spain/La Rioja.map"
+                        "content": "Data:Spain/La Rioja.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_La_Rioja_(with_coat_of_arms).svg"
                     },
                     "VC": {
-                        "content": "Data:Spain/Valencian Community.map"
+                        "content": "Data:Spain/Valencian Community.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_the_Valencian_Community_(2x3).svg"
                     },
                     "CE": {
-                        "content": "Data:Spain/Ceuta.map"
+                        "content": "Data:Spain/Ceuta.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Ceuta.svg"
                     },
                     "ML": {
-                        "content": "Data:Spain/Melilla.map"
+                        "content": "Data:Spain/Melilla.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Melilla.svg"
                     }
                 },
                 "name": {
@@ -662,7 +811,7 @@
                             "en": "Cayman Islands"
                         }
                     },
-                    "FLK": {
+                    "DIS:FLK": {
                         "content": "useInstead:OSMB:EU/UK/OUT/flk.geojson",
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_Falkland_Islands.svg",
                         "name": {
@@ -694,6 +843,50 @@
                 "name": {
                     "fr": "Île de Man",
                     "en": "Isle of Man"
+                },
+                "get":{
+                    "GLE":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/gle.geojson",
+                        "name":{
+                            "fr": "Glenfaba",
+                            "en": "Glenfaba"
+                        }
+                    },
+                    "MID":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/mid.geojson",
+                        "name":{
+                            "fr": "Middle",
+                            "en": "Middle"
+                        }
+                    },
+                    "GAR":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/gar.geojson",
+                        "name":{
+                            "fr": "Garff",
+                            "en": "Garff"
+                        }
+                    },
+                    "AYR":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/ayr.geojson",
+                        "name":{
+                            "fr": "Ayre",
+                            "en": "Ayre"
+                        }
+                    },
+                    "RUS":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/rus.geojson",
+                        "name":{
+                            "fr": "Rushen",
+                            "en": "Rushen"
+                        }
+                    },
+                    "MIC":{
+                        "content":"useInstead:OSMB:EU/UK/UKC/mic.geojson",
+                        "name":{
+                            "fr": "Michael",
+                            "en": "Michael"
+                        }
+                    }
                 }
             },
             "UKC:JEY": {
@@ -1132,90 +1325,105 @@
                 "get": {
                     "42": {
                         "content": "useInstead:OSMB:norway/42.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Agder.svg",
                         "name": {
                             "fr": "Agder"
                         }
                     },
                     "02": {
                         "content": "useInstead:OSMB:norway/02.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Akershus.svg",
                         "name": {
                             "fr": "Akershus"
                         }
                     },
                     "06": {
                         "content": "useInstead:OSMB:norway/06.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Buskerud.svg",
                         "name": {
                             "fr": "Buskerud"
                         }
                     },
                     "20": {
                         "content": "useInstead:OSMB:norway/20.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Finnmark.svg",
                         "name": {
                             "fr": "Finnmark"
                         }
                     },
                     "34": {
                         "content": "useInstead:OSMB:norway/34.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Innlandet.svg",
                         "name": {
                             "fr": "Innlandet"
                         }
                     },
                     "15": {
                         "content": "useInstead:OSMB:norway/15.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_M%C3%B8re_og_Romsdal.svg",
                         "name": {
                             "fr": "Møre og Romsdal"
                         }
                     },
                     "18": {
                         "content": "useInstead:OSMB:norway/18.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/75/Flag_of_Nordland.svg",
                         "name": {
                             "fr": "Nordland"
                         }
                     },
                     "OSLO": {
                         "content": "useInstead:OSMB:norway/oslo.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Oslo.svg",
                         "name": {
                             "fr": "Oslo"
                         }
                     },
                     "01": {
                         "content": "useInstead:OSMB:norway/01.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_%C3%98stfold.svg",
                         "name": {
                             "fr": "Østfold"
                         }
                     },
                     "11": {
                         "content": "useInstead:OSMB:norway/11.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Rogaland.svg",
                         "name": {
                             "fr": "Rogaland"
                         }
                     },
                     "08": {
                         "content": "useInstead:OSMB:norway/08.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_Telemark_fylke_(2023).svg",
                         "name": {
                             "fr": "Telemark"
                         }
                     },
                     "17": {
                         "content": "useInstead:OSMB:norway/17.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Nord-Tr%C3%B8ndelag.svg",
                         "name": {
                             "fr": "Trøndelag"
                         }
                     },
                     "19": {
                         "content": "useInstead:OSMB:norway/19.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_Troms.svg",
                         "name": {
                             "fr": "Troms"
                         }
                     },
                     "07": {
                         "content": "useInstead:OSMB:norway/07.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Vestfold_County_2024.svg",
                         "name": {
                             "fr": "Vestfold"
                         }
                     },
                     "46": {
                         "content": "useInstead:OSMB:norway/46.geojson",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Vestland.svg",
                         "name": {
                             "fr": "Vestland"
                         }
@@ -1456,96 +1664,112 @@
                 "get": {
                     "DS": {
                         "content": "Data:Poland/Lower Silesian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/4b/POL_wojew%C3%B3dztwo_dolno%C5%9Bl%C4%85skie_flag.svg",
                         "name": {
                             "fr": "Basse-Silésie"
                         }
                     },
                     "PK": {
                         "content": "Data:Poland/Subcarpathian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/94/POL_wojew%C3%B3dztwo_podkarpackie_flag.svg",
                         "name": {
                             "fr": "Basses-Carpates"
                         }
                     },
                     "KP": {
                         "content": "Data:Poland/Kuyavian-Pomeranian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a2/POL_wojew%C3%B3dztwo_kujawsko-pomorskie_flag.svg",
                         "name": {
                             "fr": "Couïavie-Poméranie"
                         }
                     },
                     "WP": {
                         "content": "Data:Poland/Greater Poland.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/9b/POL_wojew%C3%B3dztwo_wielkopolskie_flag.svg",
                         "name": {
                             "fr": "Grande-Pologne"
                         }
                     },
                     "LU": {
                         "content": "Data:Poland/Lublin.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/70/POL_wojew%C3%B3dztwo_lubelskie_flag.svg",
                         "name": {
                             "fr": "Lublin"
                         }
                     },
                     "LB": {
                         "content": "Data:Poland/Lubusz.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/01/POL_wojew%C3%B3dztwo_lubuskie_flag.svg",
                         "name": {
                             "fr": "Lubusz"
                         }
                     },
                     "LD": {
                         "content": "Data:Poland/Łódź.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5b/POL_wojew%C3%B3dztwo_%C5%82%C3%B3dzkie_1_flag.svg",
                         "name": {
                             "fr": "Łódź"
                         }
                     },
                     "MZ": {
                         "content": "Data:Poland/Masovian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/33/POL_wojew%C3%B3dztwo_mazowieckie_flag.svg",
                         "name": {
                             "fr": "Mazovie"
                         }
                     },
                     "OP": {
                         "content": "Data:Poland/Opole.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a0/POL_wojew%C3%B3dztwo_opolskie_flag.svg",
                         "name": {
                             "fr": "Opole"
                         }
                     },
                     "MA": {
                         "content": "Data:Poland/Lesser Poland.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/80/POL_wojew%C3%B3dztwo_ma%C5%82opolskie_flag.svg",
                         "name": {
                             "fr": "Petite-Pologne"
                         }
                     },
                     "PD": {
                         "content": "Data:Poland/Podlachian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/41/POL_wojew%C3%B3dztwo_podlaskie_flag.svg",
                         "name": {
                             "fr": "Podlachie"
                         }
                     },
                     "PM": {
                         "content": "Data:Poland/Pomeranian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5c/POL_wojew%C3%B3dztwo_pomorskie_flag.svg",
                         "name": {
                             "fr": "Poméranie"
                         }
                     },
                     "ZP": {
                         "content": "Data:Poland/West Pomeranian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/37/POL_wojew%C3%B3dztwo_zachodniopomorskie_flag.svg",
                         "name": {
                             "fr": "Poméranie-Occidentale"
                         }
                     },
                     "SK": {
                         "content": "Data:Poland/Świętokrzyskie.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/69/POL_wojew%C3%B3dztwo_%C5%9Bwi%C4%99tokrzyskie_flag.svg",
                         "name": {
                             "fr": "Sainte-Croix"
                         }
                     },
                     "SL": {
                         "content": "Data:Poland/Silesian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5b/POL_wojew%C3%B3dztwo_%C5%9Bl%C4%85skie_flag.svg",
                         "name": {
                             "fr": "Silésie"
                         }
                     },
                     "WN": {
                         "content": "Data:Poland/Warmian-Masurian.map",
+                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/de/POL_wojew%C3%B3dztwo_warmi%C5%84sko-mazurskie_flag.svg",
                         "name": {
                             "fr": "Varmie-Mazurie"
                         }
@@ -1626,6 +1850,50 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg",
                 "name": {
                     "fr": "Kosovo"
+                },
+                "get":{
+                    "K1":{
+                        "content":"useInstead:OSMB:EU/RKS/k1.geojson",
+                        "name":{
+                            "fr":"Gjakovë/Đakovica"
+                        }
+                    },
+                    "K2":{
+                        "content":"useInstead:OSMB:EU/RKS/k2.geojson",
+                        "name":{
+                            "fr":"Gjilan/Gnjilane"
+                        }
+                    },
+                    "K3":{
+                        "content":"useInstead:OSMB:EU/RKS/k3.geojson",
+                        "name":{
+                            "fr":"Mitrovicë/Kosovska Mitrovica"
+                        }
+                    },
+                    "K4":{
+                        "content":"useInstead:OSMB:EU/RKS/k4.geojson",
+                        "name":{
+                            "fr":"Pejë/Peć"
+                        }
+                    },
+                    "K5":{
+                        "content":"useInstead:OSMB:EU/RKS/k5.geojson",
+                        "name":{
+                            "fr":"Pristina"
+                        }
+                    },
+                    "K6":{
+                        "content":"useInstead:OSMB:EU/RKS/k6.geojson",
+                        "name":{
+                            "fr":"Prizren"
+                        }
+                    },
+                    "K7":{
+                        "content":"useInstead:OSMB:EU/RKS/k7.geojson",
+                        "name":{
+                            "fr":"Ferizaj/Uroševac"
+                        }
+                    }
                 }
             },
             "MKD": {
@@ -1642,6 +1910,158 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
                 "name": {
                     "fr": "Serbie"
+                },
+                "get":{
+                    "V1":{
+                        "content":"useInstead:OSMB:EU/SRB/v1.geojson",
+                        "name":{
+                            "fr":"Banat central"
+                        }
+                    },
+                    "V2":{
+                        "content":"useInstead:OSMB:EU/SRB/v2.geojson",
+                        "name":{
+                            "fr":"Bačka septentrionale"
+                        }
+                    },
+                    "V3":{
+                        "content":"useInstead:OSMB:EU/SRB/v3.geojson",
+                        "name":{
+                            "fr":"Banat septentrional"
+                        }
+                    },
+                    "V4":{
+                        "content":"useInstead:OSMB:EU/SRB/v4.geojson",
+                        "name":{
+                            "fr":"Bačka méridionale"
+                        }
+                    },
+                    "V5":{
+                        "content":"useInstead:OSMB:EU/SRB/v5.geojson",
+                        "name":{
+                            "fr":"Banat méridional"
+                        }
+                    },
+                    "V6":{
+                        "content":"useInstead:OSMB:EU/SRB/v6.geojson",
+                        "name":{
+                            "fr":"Syrmie"
+                        }
+                    },
+                    "V7":{
+                        "content":"useInstead:OSMB:EU/SRB/v7.geojson",
+                        "name":{
+                            "fr":"Bačka occidentale"
+                        }
+                    },
+                    "BEL":{
+                        "content":"useInstead:OSMB:EU/SRB/BEL.geojson",
+                        "name":{
+                            "fr":"Belgrade"
+                        }
+                    },
+                    "C1":{
+                        "content":"useInstead:OSMB:EU/SRB/c1.geojson",
+                        "name":{
+                            "fr":"Bor"
+                        }
+                    },
+                    "C2":{
+                        "content":"useInstead:OSMB:EU/SRB/c2.geojson",
+                        "name":{
+                            "fr":"Braničevo"
+                        }
+                    },
+                    "C3":{
+                        "content":"useInstead:OSMB:EU/SRB/c3.geojson",
+                        "name":{
+                            "fr":"Jablanica"
+                        }
+                    },
+                    "C4":{
+                        "content":"useInstead:OSMB:EU/SRB/c4.geojson",
+                        "name":{
+                            "fr":"Kolubara"
+                        }
+                    },
+                    "C5":{
+                        "content":"useInstead:OSMB:EU/SRB/c5.geojson",
+                        "name":{
+                            "fr":"Mačva"
+                        }
+                    },
+                    "C6":{
+                        "content":"useInstead:OSMB:EU/SRB/c6.geojson",
+                        "name":{
+                            "fr":"Moravica"
+                        }
+                    },
+                    "C7":{
+                        "content":"useInstead:OSMB:EU/SRB/c7.geojson",
+                        "name":{
+                            "fr":"Nišava"
+                        }
+                    },
+                    "C8":{
+                        "content":"useInstead:OSMB:EU/SRB/c8.geojson",
+                        "name":{
+                            "fr":"Pčinja"
+                        }
+                    },
+                    "C9":{
+                        "content":"useInstead:OSMB:EU/SRB/c9.geojson",
+                        "name":{
+                            "fr":"Pirot"
+                        }
+                    },
+                    "C10":{
+                        "content":"useInstead:OSMB:EU/SRB/c10.geojson",
+                        "name":{
+                            "fr":"Podunavlje"
+                        }
+                    },
+                    "C11":{
+                        "content":"useInstead:OSMB:EU/SRB/c11.geojson",
+                        "name":{
+                            "fr":"Pomoravlje"
+                        }
+                    },
+                    "C12":{
+                        "content":"useInstead:OSMB:EU/SRB/c12.geojson",
+                        "name":{
+                            "fr":"Rasina"
+                        }
+                    },
+                    "C13":{
+                        "content":"useInstead:OSMB:EU/SRB/c13.geojson",
+                        "name":{
+                            "fr":"Raška"
+                        }
+                    },
+                    "C14":{
+                        "content":"useInstead:OSMB:EU/SRB/c14.geojson",
+                        "name":{
+                            "fr":"Šumadija"
+                        }
+                    },
+                    "C15":{
+                        "content":"useInstead:OSMB:EU/SRB/c15.geojson",
+                        "name":{
+                            "fr":"Toplica"
+                        }
+                    },
+                    "C16":{
+                        "content":"useInstead:OSMB:EU/SRB/c16.geojson",
+                        "name":{
+                            "fr":"Zaječar"
+                        }
+                    },
+                    "C17":{
+                        "content":"useInstead:OSMB:EU/SRB/c17.geojson",
+                        "name":{
+                            "fr":"Zlatibor"
+                        }
+                    }
                 }
             },
             "BIH": {
@@ -2997,6 +3417,127 @@
                         "name": {
                             "fr": "Québec",
                             "en": "Quebec"
+                        },
+                        "get":{
+                            "1":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/1.geojson",
+                                "name":{
+                                    "fr":"Bas-Saint-Laurent",
+                                    "en":"Bas-Saint-Laurent"
+                                }
+                            },
+                            "2":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/2.geojson",
+                                "name":{
+                                    "fr":"Saguenay–Lac-Saint-Jean",
+                                    "en":"Saguenay–Lac-Saint-Jean"
+                                }
+                            },
+                            "3":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/3.geojson",
+                                "name":{
+                                    "fr":"Capitale-Nationale",
+                                    "en":"Capitale-Nationale"
+                                }
+                            },
+                            "4":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/4.geojson",
+                                "name":{
+                                    "fr":"Mauricie",
+                                    "en":"Mauricie"
+                                }
+                            },
+                            "5":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/5.geojson",
+                                "name":{
+                                    "fr":"Estrie",
+                                    "en":"Estrie"
+                                }
+                            },
+                            "6":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/6.geojson",
+                                "name":{
+                                    "fr":"Montréal",
+                                    "en":"Montreal"
+                                }
+                            },
+                            "7":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/7.geojson",
+                                "name":{
+                                    "fr":"Outaouais",
+                                    "en":"Outaouais"
+                                }
+                            },
+                            "8":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/8.geojson",
+                                "name":{
+                                    "fr":"Abitibi-Témiscamingue",
+                                    "en":"Abitibi-Témiscamingue"
+                                }
+                            },
+                            "9":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/9.geojson",
+                                "name":{
+                                    "fr":"Côte-Nord",
+                                    "en":"Côte-Nord"
+                                }
+                            },
+                            "10":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/10.geojson",
+                                "name":{
+                                    "fr":"Nord-du-Québec",
+                                    "en":"Nord-du-Québec"
+                                }
+                            },
+                            "11":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/11.geojson",
+                                "name":{
+                                    "fr":"Gaspésie–Îles-de-la-Madeleine",
+                                    "en":"Gaspésie–Îles-de-la-Madeleine"
+                                }
+                            },
+                            "12":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/12.geojson",
+                                "name":{
+                                    "fr":"Chaudière-Appalaches",
+                                    "en":"Chaudière-Appalaches"
+                                }
+                            },
+                            "13":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/13.geojson",
+                                "name":{
+                                    "fr":"Laval",
+                                    "en":"Laval"
+                                }
+                            },
+                            "14":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/14.geojson",
+                                "name":{
+                                    "fr":"Lanaudière",
+                                    "en":"Lanaudière"
+                                }
+                            },
+                            "15":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/15.geojson",
+                                "name":{
+                                    "fr":"Laurentides",
+                                    "en":"Laurentides"
+                                }
+                            },
+                            "16":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/16.geojson",
+                                "name":{
+                                    "fr":"Montérégie",
+                                    "en":"Montérégie"
+                                }
+                            },
+                            "17":{
+                                "content":"useInstead:OSMB:AM/CAN/QC/17.geojson",
+                                "name":{
+                                    "fr":"Centre-du-Québec",
+                                    "en":"Centre-du-Québec"
+                                }
+                            }
                         }
                     },
                     "NB": {
