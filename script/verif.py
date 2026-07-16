@@ -12,7 +12,7 @@ import json, math
 from pathlib import Path
 
 script_dir = Path(__file__).parent
-boundary_path = (script_dir / "../../country/boundary.json").resolve()
+boundary_path = (script_dir / "../boundaries.json").resolve()
 
 with open(boundary_path, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -45,6 +45,7 @@ cwf = 0
 cwp = 0
 cwfn = 0
 cwen = 0
+cwALL = 0
 
 numOfRegion = 0
 numOfCountryWithRegion = 0
@@ -55,10 +56,13 @@ for continent, countries in listOfCountryPerContinent.items():
             cwf += 1
         if country_data.get("population"):
             cwp += 1
-        if country_data.get("namefr"):
-            cwfn += 1
-        if country_data.get("nameen"):
-            cwen += 1
+        if country_data.get("name"):
+            if(country_data['name'].get("fr")):
+                cwfn += 1
+            if(country_data['name'].get("en")):
+                cwen += 1
+            if(country_data['name'].get("*")):
+                cwALL += 1
         if country_data.get("get"):
             numOfRegion += len(country_data.get("get"))
             numOfCountryWithRegion += 1
@@ -71,5 +75,7 @@ percent = math.floor(cwfn / total_countries * 100) if total_countries else 0
 print(f"{percent}% of countries have a french name")
 percent = math.floor(cwen / total_countries * 100) if total_countries else 0
 print(f"{percent}% of countries have a english name")
+percent = math.floor(cwALL / total_countries * 100) if total_countries else 0
+print(f"{percent}% of countries have a default name")
 
 print(f"There are {numOfRegion} region in {numOfCountryWithRegion} different country\n")
