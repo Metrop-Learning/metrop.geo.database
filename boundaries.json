@@ -11,12 +11,12 @@
         "VER": [
             1,
             4,
-            0
+            1
         ],
         "DATE": [
             2026,
             7,
-            16
+            18
         ],
         "PROVIDER": "METROP_LEARNING_ORGANISATION",
         "TYPE": "MODERN_DAY",
@@ -2142,20 +2142,10 @@
                 }
             },
             "TUR": {
-                "content": "Data:Turkey.map",
-                "population": "85 372 377",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-                "name": {
-                    "fr": "Turquie"
-                }
+                "link":"AS-TUR"
             },
             "KAZ": {
-                "content": "Data:Kazakhstan.map",
-                "population": "20 286 084",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-                "name": {
-                    "fr": "Kazakhstan"
-                }
+                "link":"AS-KAZ"
             },
             "GEO": {
                 "content": "Data:Georgia.map",
@@ -2166,12 +2156,10 @@
                 }
             },
             "AZE": {
-                "content": "Data:Azerbaijan.map",
-                "population": "10 205 810",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
-                "name": {
-                    "fr": "Azerbaïdjan"
-                }
+                "link":"AS-AZE"
+            },
+            "ARM":{
+                "link":"AS-ARM"
             }
         },
         "name": {
@@ -2189,12 +2177,7 @@
                 }
             },
             "RUS": {
-                "content": "Data:Russia.map",
-                "population": "143 679 916",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg",
-                "name": {
-                    "fr": "Russie"
-                }
+                "link":"EU-RUS"
             },
             "TUR": {
                 "content": "Data:Turkey.map",
@@ -2205,11 +2188,7 @@
                 }
             },
             "GRC": {
-                "content": "Data:Greece.map",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
-                "name": {
-                    "fr": "Grèce"
-                }
+                "link":"EU-GRC"
             },
             "KAZ": {
                 "content": "Data:Kazakhstan.map",
@@ -2220,12 +2199,7 @@
                 }
             },
             "GEO": {
-                "content": "Data:Georgia.map",
-                "population": "4 215 000",
-                "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg",
-                "name": {
-                    "fr": "Géorgie"
-                }
+                "link":"EU-GEO"
             },
             "AZE": {
                 "content": "Data:Azerbaijan.map",
