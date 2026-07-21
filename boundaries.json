@@ -11,12 +11,12 @@
         "VER": [
             1,
             4,
-            1
+            2
         ],
         "DATE": [
             2026,
             7,
-            18
+            21
         ],
         "PROVIDER": "METROP_LEARNING_ORGANISATION",
         "TYPE": "MODERN_DAY",
@@ -503,83 +503,243 @@
                 "get": {
                     "ABR": {
                         "content": "Data:Italy/Region/Abruzzo.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Abruzzo.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Abruzzo.svg",
+                        "name": {
+                            "fr": "Abruzzes",
+                            "en": "Abruzzo",
+                            "es": "Abruzos",
+                            "it": "Abruzzo",
+                            "jp": "アブルッツォ州",
+                            "eo": "Abruco"
+                        }
                     },
                     "BAS": {
                         "content": "Data:Italy/Region/Basilicata.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Basilicata.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Basilicata.svg",
+                        "name": {
+                            "fr": "Basilicate",
+                            "en": "Basilicata",
+                            "es": "Basilicata",
+                            "it": "Basilicata",
+                            "jp": "バジリカータ州",
+                            "eo": "Bazilikato"
+                        }
                     },
                     "CAL": {
                         "content": "Data:Italy/Region/Calabria.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8b/Flag_of_Calabria.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Flag_of_Calabria.svg",
+                        "name": {
+                            "fr": "Calabre",
+                            "en": "Calabria",
+                            "es": "Calabria",
+                            "it": "Calabria",
+                            "jp": "カラブリア州",
+                            "eo": "Kalabrio"
+                        }
                     },
                     "CAM": {
                         "content": "Data:Italy/Region/Campania.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/c5/Flag_of_Campania.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Flag_of_Campania.svg",
+                        "name": {
+                            "fr": "Campanie",
+                            "en": "Campania",
+                            "es": "Campania",
+                            "it": "Campania",
+                            "jp": "カンパニア州",
+                            "eo": "Kampanio"
+                        }
                     },
                     "EMR": {
                         "content": "Data:Italy/Region/Emilia-Romagna.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Emilia-Romagna_(de_facto).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Emilia-Romagna_(de_facto).svg",
+                        "name": {
+                            "fr": "Émilie-Romagne",
+                            "en": "Emilia-Romagna",
+                            "es": "Emilia-Romaña",
+                            "it": "Emilia-Romagna",
+                            "jp": "エミリア＝ロマーニャ州",
+                            "eo": "Emilio-Romanjo"
+                        }
                     },
                     "FVG": {
                         "content": "Data:Italy/Region/Friuli Venezia Giulia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/55/Flag_of_Friuli-Venezia_Giulia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/55/Flag_of_Friuli-Venezia_Giulia.svg",
+                        "name": {
+                            "fr": "Frioul-Vénétie Julienne",
+                            "en": "Friuli Venezia Giulia",
+                            "es": "Friuli-Venecia Julia",
+                            "it": "Friuli-Venezia Giulia",
+                            "jp": "フリウリ＝ヴェネツィア・ジュリア州",
+                            "eo": "Friulo-Venecio Julia"
+                        }
                     },
                     "LAZ": {
                         "content": "Data:Italy/Region/Lazio.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Flag_of_Lazio.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Flag_of_Lazio.svg",
+                        "name": {
+                            "fr": "Latium",
+                            "en": "Lazio",
+                            "es": "Lacio",
+                            "it": "Lazio",
+                            "jp": "ラツィオ州",
+                            "eo": "Lacio"
+                        }
                     },
                     "LIG": {
                         "content": "Data:Italy/Liguria.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Liguria.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Liguria.svg",
+                        "name": {
+                            "fr": "Ligurie",
+                            "en": "Liguria",
+                            "es": "Liguria",
+                            "it": "Liguria",
+                            "jp": "リグーリア州",
+                            "eo": "Ligurio"
+                        }
                     },
                     "LOM": {
                         "content": "Data:Italy/Region/Lombardy.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Lombardy.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Lombardy.svg",
+                        "name": {
+                            "fr": "Lombardie",
+                            "en": "Lombardy",
+                            "es": "Lombardía",
+                            "it": "Lombardia",
+                            "jp": "ロンバルディア州",
+                            "eo": "Lombardio"
+                        }
                     },
                     "MAR": {
                         "content": "Data:Italy/Region/Marche.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Marche.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Marche.svg",
+                        "name": {
+                            "fr": "Marches",
+                            "en": "Marche",
+                            "es": "Marcas",
+                            "it": "Marche",
+                            "jp": "マルケ州",
+                            "eo": "Markio"
+                        }
                     },
                     "MOL": {
                         "content": "Data:Italy/Region/Molise.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Molise.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Molise.svg",
+                        "name": {
+                            "fr": "Molise",
+                            "en": "Molise",
+                            "es": "Molise",
+                            "it": "Molise",
+                            "jp": "モリーゼ州",
+                            "eo": "Moliso"
+                        }
                     },
                     "UMB": {
                         "content": "Data:Italy/Region/Umbria.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/cc/Flag_of_Umbria.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Flag_of_Umbria.svg",
+                        "name": {
+                            "fr": "Ombrie",
+                            "en": "Umbria",
+                            "es": "Umbría",
+                            "it": "Umbria",
+                            "jp": "ウンブリア州",
+                            "eo": "Umbrio"
+                        }
                     },
                     "PMN": {
                         "content": "Data:Italy/Piedmont.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Piedmont.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Piedmont.svg",
+                        "name": {
+                            "fr": "Piémont",
+                            "en": "Piedmont",
+                            "es": "Piamonte",
+                            "it": "Piemonte",
+                            "jp": "ピエモンテ州",
+                            "eo": "Piemonto"
+                        }
                     },
                     "PUG": {
                         "content": "Data:Italy/Region/Apulia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Apulia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Apulia.svg",
+                        "name": {
+                            "fr": "Pouilles",
+                            "en": "Apulia",
+                            "es": "Apulia",
+                            "it": "Puglia",
+                            "jp": "プーリア州",
+                            "eo": "Apulio"
+                        }
                     },
                     "SAR": {
                         "content": "Data:Italy/Region/Sardinia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Sardinia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Sardinia.svg",
+                        "name": {
+                            "fr": "Sardaigne",
+                            "en": "Sardinia",
+                            "es": "Cerdeña",
+                            "it": "Sardegna",
+                            "jp": "サルデーニャ",
+                            "eo": "Sardinion"
+                        }
                     },
                     "SIC": {
                         "content": "Data:Italy/Region/Sicily.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Sicily_(revised).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Sicily_(revised).svg",
+                        "name": {
+                            "fr": "Sicile",
+                            "en": "Sicily",
+                            "es": "Sicilia",
+                            "it": "Sicilia",
+                            "jp": "シチリア",
+                            "eo": "Sicilio"
+                        }
                     },
                     "TOS": {
                         "content": "Data:Italy/Region/Tuscany.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Tuscany.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Tuscany.svg",
+                        "name": {
+                            "fr": "Toscane",
+                            "en": "Tuscany",
+                            "es": "Toscana",
+                            "it": "Toscana",
+                            "jp": "トスカーナ州",
+                            "eo": "Toskanio"
+                        }
                     },
                     "TAA": {
                         "content": "Data:Italy/Region/Trentino-South Tyrol.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Flag_of_Trentino-South_Tyrol.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Flag_of_Trentino-South_Tyrol.svg",
+                        "name": {
+                            "fr": "Trentin-Haut-Adige",
+                            "en": "Trentino-South Tyrol",
+                            "es": "Trentino-Alto Adigio",
+                            "it": "Trentino-Alto Adige",
+                            "jp": "トレンティーノ＝アルト・アディジェ州",
+                            "eo": "Trentino-Suda Tirolo"
+                        }
                     },
                     "VAO": {
                         "content": "useInstead:OSMB:aosta.geojson",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/90/Flag_of_Valle_d'Aosta.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/9/90/Flag_of_Valle_d'Aosta.svg",
+                        "name": {
+                            "fr": "Vallée d'Aoste",
+                            "en": "Aosta Valley",
+                            "es": "Valle de Aosta",
+                            "it": "Valle d'Aosta",
+                            "jp": "ヴァッレ・ダオスタ州",
+                            "eo": "Aosta Valo"
+                        }
                     },
                     "VEN": {
                         "content": "Data:Italy/Region/Veneto.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Flag_of_Veneto.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Flag_of_Veneto.svg",
+                        "name": {
+                            "fr": "Vénétie",
+                            "en": "Veneto",
+                            "es": "Véneto",
+                            "it": "Veneto",
+                            "jp": "ヴェネト州",
+                            "eo": "Veneto"
+                        }
                     }
                 },
                 "name": {
@@ -598,79 +758,212 @@
                 "get": {
                     "AN": {
                         "content": "Data:Spain/Andalusia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_Andaluc%C3%ADa.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_Andaluc%C3%ADa.svg",
+                        "name": {
+                            "fr": "Andalousie",
+                            "en": "Andalusia",
+                            "es": "Andalucía",
+                            "it": "Andalusia",
+                            "jp": "アンダルシア州"
+                        }
                     },
                     "AR": {
                         "content": "Data:Spain/Aragón.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_Aragon.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_Aragon.svg",
+                        "name": {
+                            "fr": "Aragon",
+                            "en": "Aragon",
+                            "es": "Aragón",
+                            "it": "Aragona",
+                            "jp": "アラゴン州"
+                        }
                     },
                     "AS": {
                         "content": "Data:Spain/Asturias.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Asturias.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Asturias.svg",
+                        "name": {
+                            "fr": "Asturies",
+                            "en": "Asturias",
+                            "es": "Asturias",
+                            "it": "Asturie",
+                            "jp": "アストゥリアス州"
+                        }
                     },
                     "BA": {
                         "content": "Data:Spain/Balearic Islands.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_the_Balearic_Islands.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_the_Balearic_Islands.svg",
+                        "name": {
+                            "fr": "Îles Baléares",
+                            "en": "Balearic Islands",
+                            "es": "Islas Baleares",
+                            "it": "Isole Baleari",
+                            "jp": "バレアレス諸島"
+                        }
                     },
                     "CN": {
                         "content": "Data:Spain/Canary Islands.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_the_Canary_Islands_(simple).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_the_Canary_Islands_(simple).svg",
+                        "name": {
+                            "fr": "Îles Canaries",
+                            "en": "Canary Islands",
+                            "es": "Islas Canarias",
+                            "it": "Isole Canarie",
+                            "jp": "カナリア諸島"
+                        }
                     },
                     "CB": {
                         "content": "Data:Spain/Cantabria.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Cantabria_(Official).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Cantabria_(Official).svg",
+                        "name": {
+                            "fr": "Cantabrie",
+                            "en": "Cantabria",
+                            "es": "Cantabria",
+                            "it": "Cantabria",
+                            "jp": "カンタブリア州"
+                        }
                     },
                     "CL": {
                         "content": "Data:Spain/Castile and León.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Castile_and_Le%C3%B3n.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Castile_and_Le%C3%B3n.svg",
+                        "name": {
+                            "fr": "Castille-et-León",
+                            "en": "Castile and León",
+                            "es": "Castilla y León",
+                            "it": "Castiglia e León",
+                            "jp": "カスティーリャ・イ・レオン州"
+                        }
                     },
                     "CM": {
                         "content": "Data:Spain/Castile-La Mancha.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Bandera_Castilla-La_Mancha.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Bandera_Castilla-La_Mancha.svg",
+                        "name": {
+                            "fr": "Castille-La Manche",
+                            "en": "Castile-La Mancha",
+                            "es": "Castilla-La Mancha",
+                            "it": "Castiglia-La Mancia",
+                            "jp": "カスティーリャ・ラ・マンチャ州"
+                        }
                     },
                     "CT": {
                         "content": "Data:Spain/Catalonia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Catalonia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Catalonia.svg",
+                        "name": {
+                            "fr": "Catalogne",
+                            "en": "Catalonia",
+                            "es": "Cataluña",
+                            "it": "Catalogna",
+                            "jp": "カタルーニャ州"
+                        }
                     },
                     "EX": {
                         "content": "Data:Spain/Extremadura.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Extremadura%2C_Spain_(with_coat_of_arms).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/13/Flag_of_Extremadura%2C_Spain_(with_coat_of_arms).svg",
+                        "name": {
+                            "fr": "Estrémadure",
+                            "en": "Extremadura",
+                            "es": "Extremadura",
+                            "it": "Estremadura",
+                            "jp": "エストレマドゥーラ州"
+                        }
                     },
                     "GA": {
                         "content": "Data:Spain/Galicia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Galicia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Galicia.svg",
+                        "name": {
+                            "fr": "Galice",
+                            "en": "Galicia",
+                            "es": "Galicia",
+                            "it": "Galizia",
+                            "jp": "ガリシア州"
+                        }
                     },
                     "MD": {
                         "content": "Data:Spain/Madrid.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_the_Community_of_Madrid.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_the_Community_of_Madrid.svg",
+                        "name": {
+                            "fr": "Communauté de Madrid",
+                            "en": "Community of Madrid",
+                            "es": "Comunidad de Madrid",
+                            "it": "Comunità di Madrid",
+                            "jp": "マドリード州"
+                        }
                     },
                     "MC": {
                         "content": "Data:Spain/Murcia.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_Region_of_Murcia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_Region_of_Murcia.svg",
+                        "name": {
+                            "fr": "Région de Murcie",
+                            "en": "Region of Murcia",
+                            "es": "Región de Murcia",
+                            "it": "Regione di Murcia",
+                            "jp": "ムルシア州"
+                        }
                     },
                     "NC": {
                         "content": "Data:Spain/Navarra.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/3/36/Bandera_de_Navarra.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/3/36/Bandera_de_Navarra.svg",
+                        "name": {
+                            "fr": "Communauté forale de Navarre",
+                            "en": "Navarre",
+                            "es": "Comunidad Foral de Navarra",
+                            "it": "Navarra",
+                            "jp": "ナバラ州"
+                        }
                     },
                     "PV": {
                         "content": "Data:Spain/Basque Country.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/2/2d/Flag_of_the_Basque_Country.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Flag_of_the_Basque_Country.svg",
+                        "name": {
+                            "fr": "Pays basque",
+                            "en": "Basque Country",
+                            "es": "País Vasco",
+                            "it": "Paesi Baschi",
+                            "jp": "バスク州"
+                        }
                     },
                     "RI": {
                         "content": "Data:Spain/La Rioja.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_La_Rioja_(with_coat_of_arms).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_La_Rioja_(with_coat_of_arms).svg",
+                        "name": {
+                            "fr": "La Rioja",
+                            "en": "La Rioja",
+                            "es": "La Rioja",
+                            "it": "La Rioja",
+                            "jp": "ラ・リオハ州"
+                        }
                     },
                     "VC": {
                         "content": "Data:Spain/Valencian Community.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_the_Valencian_Community_(2x3).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_the_Valencian_Community_(2x3).svg",
+                        "name": {
+                            "fr": "Communauté valencienne",
+                            "en": "Valencian Community",
+                            "es": "Comunidad Valenciana",
+                            "it": "Comunità Valenciana",
+                            "jp": "バレンシア州"
+                        }
                     },
                     "CE": {
                         "content": "Data:Spain/Ceuta.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Ceuta.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Ceuta.svg",
+                        "name": {
+                            "fr": "Ceuta",
+                            "en": "Ceuta",
+                            "es": "Ceuta",
+                            "it": "Ceuta",
+                            "jp": "セウタ"
+                        }
                     },
                     "ML": {
                         "content": "Data:Spain/Melilla.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Melilla.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Melilla.svg",
+                        "name": {
+                            "fr": "Melilla",
+                            "en": "Melilla",
+                            "es": "Melilla",
+                            "it": "Melilla",
+                            "jp": "メリリャ"
+                        }
                     }
                 },
                 "name": {
@@ -2450,189 +2743,578 @@
                 "get": {
                     "R1": {
                         "content": "useInstead:OSMB:japan/Hokkaidō.geojson",
+                        "name": {
+                            "fr": "Hokkaidō",
+                            "en": "Hokkaido",
+                            "es": "Hokkaido",
+                            "it": "Hokkaido",
+                            "jp": "北海道地方"
+                        },
                         "get": {
                             "P1": {
                                 "content": "useInstead:OSMB:japan/Hokkaidō.geojson",
-                                "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Hokkaido_Prefecture.svg"
+                                "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Hokkaido_Prefecture.svg",
+                                "name": {
+                                    "fr": "Hokkaidō",
+                                    "en": "Hokkaido",
+                                    "es": "Hokkaido",
+                                    "it": "Hokkaido",
+                                    "jp": "北海道"
+                                }
                             }
                         }
                     },
                     "R2": {
                         "content": "useInstead:OSMB:japan/Tōhoku.geojson",
+                        "name": {
+                            "fr": "Tōhoku",
+                            "en": "Tohoku",
+                            "es": "Tōhoku",
+                            "it": "Tōhoku",
+                            "jp": "東北地方"
+                        },
                         "get": {
                             "P2": {
-                                "content": "useInstead:OSMB:japan/pref/02.geojson"
+                                "content": "useInstead:OSMB:japan/pref/02.geojson",
+                                "name": {
+                                    "fr": "Aomori",
+                                    "en": "Aomori",
+                                    "es": "Aomori",
+                                    "it": "Aomori",
+                                    "jp": "青森県"
+                                }
                             },
                             "P3": {
-                                "content": "useInstead:OSMB:japan/pref/03.geojson"
+                                "content": "useInstead:OSMB:japan/pref/03.geojson",
+                                "name": {
+                                    "fr": "Iwate",
+                                    "en": "Iwate",
+                                    "es": "Iwate",
+                                    "it": "Iwate",
+                                    "jp": "岩手県"
+                                }
                             },
                             "P4": {
-                                "content": "useInstead:OSMB:japan/pref/04.geojson"
+                                "content": "useInstead:OSMB:japan/pref/04.geojson",
+                                "name": {
+                                    "fr": "Miyagi",
+                                    "en": "Miyagi",
+                                    "es": "Miyagi",
+                                    "it": "Miyagi",
+                                    "jp": "宮城県"
+                                }
                             },
                             "P5": {
-                                "content": "useInstead:OSMB:japan/pref/05.geojson"
+                                "content": "useInstead:OSMB:japan/pref/05.geojson",
+                                "name": {
+                                    "fr": "Akita",
+                                    "en": "Akita",
+                                    "es": "Akita",
+                                    "it": "Akita",
+                                    "jp": "秋田県"
+                                }
                             },
                             "P6": {
-                                "content": "useInstead:OSMB:japan/pref/06.geojson"
+                                "content": "useInstead:OSMB:japan/pref/06.geojson",
+                                "name": {
+                                    "fr": "Yamagata",
+                                    "en": "Yamagata",
+                                    "es": "Yamagata",
+                                    "it": "Yamagata",
+                                    "jp": "山形県"
+                                }
                             },
                             "P7": {
-                                "content": "useInstead:OSMB:japan/pref/07.geojson"
+                                "content": "useInstead:OSMB:japan/pref/07.geojson",
+                                "name": {
+                                    "fr": "Fukushima",
+                                    "en": "Fukushima",
+                                    "es": "Fukushima",
+                                    "it": "Fukushima",
+                                    "jp": "福島県"
+                                }
                             }
                         }
                     },
                     "R3": {
                         "content": "useInstead:OSMB:japan/Kantō.geojson",
+                        "name": {
+                            "fr": "Kantō",
+                            "en": "Kanto",
+                            "es": "Kantō",
+                            "it": "Kantō",
+                            "jp": "関東地方"
+                        },
                         "get": {
                             "P8": {
-                                "content": "useInstead:OSMB:japan/pref/08.geojson"
+                                "content": "useInstead:OSMB:japan/pref/08.geojson",
+                                "name": {
+                                    "fr": "Ibaraki",
+                                    "en": "Ibaraki",
+                                    "es": "Ibaraki",
+                                    "it": "Ibaraki",
+                                    "jp": "茨城県"
+                                }
                             },
                             "P9": {
-                                "content": "useInstead:OSMB:japan/pref/09.geojson"
+                                "content": "useInstead:OSMB:japan/pref/09.geojson",
+                                "name": {
+                                    "fr": "Tochigi",
+                                    "en": "Tochigi",
+                                    "es": "Tochigi",
+                                    "it": "Tochigi",
+                                    "jp": "栃木県"
+                                }
                             },
                             "P10": {
-                                "content": "useInstead:OSMB:japan/pref/10.geojson"
+                                "content": "useInstead:OSMB:japan/pref/10.geojson",
+                                "name": {
+                                    "fr": "Gunma",
+                                    "en": "Gunma",
+                                    "es": "Gunma",
+                                    "it": "Gunma",
+                                    "jp": "群馬県"
+                                }
                             },
                             "P11": {
-                                "content": "useInstead:OSMB:japan/pref/11.geojson"
+                                "content": "useInstead:OSMB:japan/pref/11.geojson",
+                                "name": {
+                                    "fr": "Saitama",
+                                    "en": "Saitama",
+                                    "es": "Saitama",
+                                    "it": "Saitama",
+                                    "jp": "埼玉県"
+                                }
                             },
                             "P12": {
-                                "content": "useInstead:OSMB:japan/pref/12.geojson"
+                                "content": "useInstead:OSMB:japan/pref/12.geojson",
+                                "name": {
+                                    "fr": "Chiba",
+                                    "en": "Chiba",
+                                    "es": "Chiba",
+                                    "it": "Chiba",
+                                    "jp": "千葉県"
+                                }
                             },
                             "P13": {
-                                "content": "useInstead:OSMB:japan/pref/13.geojson"
+                                "content": "useInstead:OSMB:japan/pref/13.geojson",
+                                "name": {
+                                    "fr": "Tokyo",
+                                    "en": "Tokyo",
+                                    "es": "Tokio",
+                                    "it": "Tokyo",
+                                    "jp": "東京都"
+                                }
                             },
                             "P14": {
-                                "content": "useInstead:OSMB:japan/pref/14.geojson"
+                                "content": "useInstead:OSMB:japan/pref/14.geojson",
+                                "name": {
+                                    "fr": "Kanagawa",
+                                    "en": "Kanagawa",
+                                    "es": "Kanagawa",
+                                    "it": "Kanagawa",
+                                    "jp": "神奈川県"
+                                }
                             }
                         }
                     },
                     "R4": {
                         "content": "useInstead:OSMB:japan/Chūbu.geojson",
+                        "name": {
+                            "fr": "Chūbu",
+                            "en": "Chubu",
+                            "es": "Chūbu",
+                            "it": "Chūbu",
+                            "jp": "中部地方"
+                        },
                         "get": {
                             "P15": {
-                                "content": "useInstead:OSMB:japan/pref/15.geojson"
+                                "content": "useInstead:OSMB:japan/pref/15.geojson",
+                                "name": {
+                                    "fr": "Niigata",
+                                    "en": "Niigata",
+                                    "es": "Niigata",
+                                    "it": "Niigata",
+                                    "jp": "新潟県"
+                                }
                             },
                             "P16": {
-                                "content": "useInstead:OSMB:japan/pref/16.geojson"
+                                "content": "useInstead:OSMB:japan/pref/16.geojson",
+                                "name": {
+                                    "fr": "Toyama",
+                                    "en": "Toyama",
+                                    "es": "Toyama",
+                                    "it": "Toyama",
+                                    "jp": "富山県"
+                                }
                             },
                             "P17": {
-                                "content": "useInstead:OSMB:japan/pref/17.geojson"
+                                "content": "useInstead:OSMB:japan/pref/17.geojson",
+                                "name": {
+                                    "fr": "Ishikawa",
+                                    "en": "Ishikawa",
+                                    "es": "Ishikawa",
+                                    "it": "Ishikawa",
+                                    "jp": "石川県"
+                                }
                             },
                             "P18": {
-                                "content": "useInstead:OSMB:japan/pref/18.geojson"
+                                "content": "useInstead:OSMB:japan/pref/18.geojson",
+                                "name": {
+                                    "fr": "Fukui",
+                                    "en": "Fukui",
+                                    "es": "Fukui",
+                                    "it": "Fukui",
+                                    "jp": "福井県"
+                                }
                             },
                             "P19": {
-                                "content": "useInstead:OSMB:japan/pref/19.geojson"
+                                "content": "useInstead:OSMB:japan/pref/19.geojson",
+                                "name": {
+                                    "fr": "Yamanashi",
+                                    "en": "Yamanashi",
+                                    "es": "Yamanashi",
+                                    "it": "Yamanashi",
+                                    "jp": "山梨県"
+                                }
                             },
                             "P20": {
-                                "content": "useInstead:OSMB:japan/pref/20.geojson"
+                                "content": "useInstead:OSMB:japan/pref/20.geojson",
+                                "name": {
+                                    "fr": "Nagano",
+                                    "en": "Nagano",
+                                    "es": "Nagano",
+                                    "it": "Nagano",
+                                    "jp": "長野県"
+                                }
                             },
                             "P21": {
-                                "content": "useInstead:OSMB:japan/pref/21.geojson"
+                                "content": "useInstead:OSMB:japan/pref/21.geojson",
+                                "name": {
+                                    "fr": "Gifu",
+                                    "en": "Gifu",
+                                    "es": "Gifu",
+                                    "it": "Gifu",
+                                    "jp": "岐阜県"
+                                }
                             },
                             "P22": {
-                                "content": "useInstead:OSMB:japan/pref/22.geojson"
+                                "content": "useInstead:OSMB:japan/pref/22.geojson",
+                                "name": {
+                                    "fr": "Shizuoka",
+                                    "en": "Shizuoka",
+                                    "es": "Shizuoka",
+                                    "it": "Shizuoka",
+                                    "jp": "静岡県"
+                                }
                             },
                             "P23": {
-                                "content": "useInstead:OSMB:japan/pref/23.geojson"
+                                "content": "useInstead:OSMB:japan/pref/23.geojson",
+                                "name": {
+                                    "fr": "Aichi",
+                                    "en": "Aichi",
+                                    "es": "Aichi",
+                                    "it": "Aichi",
+                                    "jp": "愛知県"
+                                }
                             }
                         }
                     },
                     "R5": {
                         "content": "useInstead:OSMB:japan/Kansai.geojson",
+                        "name": {
+                            "fr": "Kansai",
+                            "en": "Kansai",
+                            "es": "Kansai",
+                            "it": "Kansai",
+                            "jp": "関西地方"
+                        },
                         "get": {
                             "P24": {
-                                "content": "useInstead:OSMB:japan/pref/24.geojson"
+                                "content": "useInstead:OSMB:japan/pref/24.geojson",
+                                "name": {
+                                    "fr": "Mie",
+                                    "en": "Mie",
+                                    "es": "Mie",
+                                    "it": "Mie",
+                                    "jp": "三重県"
+                                }
                             },
                             "P25": {
-                                "content": "useInstead:OSMB:japan/pref/25.geojson"
+                                "content": "useInstead:OSMB:japan/pref/25.geojson",
+                                "name": {
+                                    "fr": "Shiga",
+                                    "en": "Shiga",
+                                    "es": "Shiga",
+                                    "it": "Shiga",
+                                    "jp": "滋賀県"
+                                }
                             },
                             "P26": {
-                                "content": "useInstead:OSMB:japan/pref/26.geojson"
+                                "content": "useInstead:OSMB:japan/pref/26.geojson",
+                                "name": {
+                                    "fr": "Kyoto",
+                                    "en": "Kyoto",
+                                    "es": "Kioto",
+                                    "it": "Kyoto",
+                                    "jp": "京都府"
+                                }
                             },
                             "P27": {
-                                "content": "useInstead:OSMB:japan/pref/27.geojson"
+                                "content": "useInstead:OSMB:japan/pref/27.geojson",
+                                "name": {
+                                    "fr": "Ōsaka",
+                                    "en": "Osaka",
+                                    "es": "Osaka",
+                                    "it": "Osaka",
+                                    "jp": "大阪府"
+                                }
                             },
                             "P28": {
-                                "content": "useInstead:OSMB:japan/pref/28.geojson"
+                                "content": "useInstead:OSMB:japan/pref/28.geojson",
+                                "name": {
+                                    "fr": "Hyogo",
+                                    "en": "Hyogo",
+                                    "es": "Hyōgo",
+                                    "it": "Hyōgo",
+                                    "jp": "兵庫県"
+                                }
                             },
                             "P29": {
-                                "content": "useInstead:OSMB:japan/pref/29.geojson"
+                                "content": "useInstead:OSMB:japan/pref/29.geojson",
+                                "name": {
+                                    "fr": "Nara",
+                                    "en": "Nara",
+                                    "es": "Nara",
+                                    "it": "Nara",
+                                    "jp": "奈良県"
+                                }
                             },
                             "P30": {
-                                "content": "useInstead:OSMB:japan/pref/30.geojson"
+                                "content": "useInstead:OSMB:japan/pref/30.geojson",
+                                "name": {
+                                    "fr": "Wakayama",
+                                    "en": "Wakayama",
+                                    "es": "Wakayama",
+                                    "it": "Wakayama",
+                                    "jp": "和歌山県"
+                                }
                             }
                         }
                     },
                     "R6": {
                         "content": "useInstead:OSMB:japan/Chūgoku.geojson",
+                        "name": {
+                            "fr": "Chūgoku",
+                            "en": "Chugoku",
+                            "es": "Chūgoku",
+                            "it": "Chūgoku",
+                            "jp": "中国地方"
+                        },
                         "get": {
                             "P31": {
-                                "content": "useInstead:OSMB:japan/pref/31.geojson"
+                                "content": "useInstead:OSMB:japan/pref/31.geojson",
+                                "name": {
+                                    "fr": "Tottori",
+                                    "en": "Tottori",
+                                    "es": "Tottori",
+                                    "it": "Tottori",
+                                    "jp": "鳥取県"
+                                }
                             },
                             "P32": {
-                                "content": "useInstead:OSMB:japan/pref/32.geojson"
+                                "content": "useInstead:OSMB:japan/pref/32.geojson",
+                                "name": {
+                                    "fr": "Shimane",
+                                    "en": "Shimane",
+                                    "es": "Shimane",
+                                    "it": "Shimane",
+                                    "jp": "島根県"
+                                }
                             },
                             "P33": {
-                                "content": "useInstead:OSMB:japan/pref/33.geojson"
+                                "content": "useInstead:OSMB:japan/pref/33.geojson",
+                                "name": {
+                                    "fr": "Okayama",
+                                    "en": "Okayama",
+                                    "es": "Okayama",
+                                    "it": "Okayama",
+                                    "jp": "岡山県"
+                                }
                             },
                             "P34": {
-                                "content": "useInstead:OSMB:japan/pref/34.geojson"
+                                "content": "useInstead:OSMB:japan/pref/34.geojson",
+                                "name": {
+                                    "fr": "Hiroshima",
+                                    "en": "Hiroshima",
+                                    "es": "Hiroshima",
+                                    "it": "Hiroshima",
+                                    "jp": "広島県"
+                                }
                             },
                             "P35": {
-                                "content": "useInstead:OSMB:japan/pref/35.geojson"
+                                "content": "useInstead:OSMB:japan/pref/35.geojson",
+                                "name": {
+                                    "fr": "Yamaguchi",
+                                    "en": "Yamaguchi",
+                                    "es": "Yamaguchi",
+                                    "it": "Yamaguchi",
+                                    "jp": "山口県"
+                                }
                             }
                         }
                     },
                     "R7": {
                         "content": "useInstead:OSMB:japan/Shikoku.geojson",
+                        "name": {
+                            "fr": "Shikoku",
+                            "en": "Shikoku",
+                            "es": "Shikoku",
+                            "it": "Shikoku",
+                            "jp": "四国地方"
+                        },
                         "get": {
                             "P36": {
-                                "content": "useInstead:OSMB:japan/pref/36.geojson"
+                                "content": "useInstead:OSMB:japan/pref/36.geojson",
+                                "name": {
+                                    "fr": "Tokushima",
+                                    "en": "Tokushima",
+                                    "es": "Tokushima",
+                                    "it": "Tokushima",
+                                    "jp": "徳島県"
+                                }
                             },
                             "P37": {
-                                "content": "useInstead:OSMB:japan/pref/37.geojson"
+                                "content": "useInstead:OSMB:japan/pref/37.geojson",
+                                "name": {
+                                    "fr": "Kagawa",
+                                    "en": "Kagawa",
+                                    "es": "Kagawa",
+                                    "it": "Kagawa",
+                                    "jp": "香川県"
+                                }
                             },
                             "P38": {
-                                "content": "useInstead:OSMB:japan/pref/38.geojson"
+                                "content": "useInstead:OSMB:japan/pref/38.geojson",
+                                "name": {
+                                    "fr": "Ehime",
+                                    "en": "Ehime",
+                                    "es": "Ehime",
+                                    "it": "Ehime",
+                                    "jp": "愛媛県"
+                                }
                             },
                             "P39": {
-                                "content": "useInstead:OSMB:japan/pref/39.geojson"
+                                "content": "useInstead:OSMB:japan/pref/39.geojson",
+                                "name": {
+                                    "fr": "Kochi",
+                                    "en": "Kochi",
+                                    "es": "Kōchi",
+                                    "it": "Kōchi",
+                                    "jp": "高知県"
+                                }
                             }
                         }
                     },
                     "R8": {
                         "content": "useInstead:OSMB:japan/KyūshūOkinawa.geojson",
+                        "name": {
+                            "fr": "Kyūshū & Okinawa",
+                            "en": "Kyushu & Okinawa",
+                            "es": "Kyūshū y Okinawa",
+                            "it": "Kyūshū e Okinawa",
+                            "jp": "九州・沖縄地方"
+                        },
                         "get": {
                             "P40": {
-                                "content": "useInstead:OSMB:japan/pref/40.geojson"
+                                "content": "useInstead:OSMB:japan/pref/40.geojson",
+                                "name": {
+                                    "fr": "Fukuoka",
+                                    "en": "Fukuoka",
+                                    "es": "Fukuoka",
+                                    "it": "Fukuoka",
+                                    "jp": "福岡県"
+                                }
                             },
                             "P41": {
-                                "content": "useInstead:OSMB:japan/pref/41.geojson"
+                                "content": "useInstead:OSMB:japan/pref/41.geojson",
+                                "name": {
+                                    "fr": "Saga",
+                                    "en": "Saga",
+                                    "es": "Saga",
+                                    "it": "Saga",
+                                    "jp": "佐賀県"
+                                }
                             },
                             "P42": {
-                                "content": "useInstead:OSMB:japan/pref/42.geojson"
+                                "content": "useInstead:OSMB:japan/pref/42.geojson",
+                                "name": {
+                                    "fr": "Nagasaki",
+                                    "en": "Nagasaki",
+                                    "es": "Nagasaki",
+                                    "it": "Nagasaki",
+                                    "jp": "長崎県"
+                                }
                             },
                             "P43": {
-                                "content": "useInstead:OSMB:japan/pref/43.geojson"
+                                "content": "useInstead:OSMB:japan/pref/43.geojson",
+                                "name": {
+                                    "fr": "Kumamoto",
+                                    "en": "Kumamoto",
+                                    "es": "Kumamoto",
+                                    "it": "Kumamoto",
+                                    "jp": "熊本県"
+                                }
                             },
                             "P44": {
-                                "content": "useInstead:OSMB:japan/pref/44.geojson"
+                                "content": "useInstead:OSMB:japan/pref/44.geojson",
+                                "name": {
+                                    "fr": "Ōita",
+                                    "en": "Oita",
+                                    "es": "Ōita",
+                                    "it": "Ōita",
+                                    "jp": "大分県"
+                                }
                             },
                             "P45": {
-                                "content": "useInstead:OSMB:japan/pref/45.geojson"
+                                "content": "useInstead:OSMB:japan/pref/45.geojson",
+                                "name": {
+                                    "fr": "Miyazaki",
+                                    "en": "Miyazaki",
+                                    "es": "Miyazaki",
+                                    "it": "Miyazaki",
+                                    "jp": "宮崎県"
+                                }
                             },
                             "P46": {
-                                "content": "useInstead:OSMB:japan/pref/46.geojson"
+                                "content": "useInstead:OSMB:japan/pref/46.geojson",
+                                "name": {
+                                    "fr": "Kagoshima",
+                                    "en": "Kagoshima",
+                                    "es": "Kagoshima",
+                                    "it": "Kagoshima",
+                                    "jp": "鹿児島県"
+                                }
                             },
                             "P47": {
-                                "content": "useInstead:OSMB:japan/pref/47.geojson"
+                                "content": "useInstead:OSMB:japan/pref/47.geojson",
+                                "name": {
+                                    "fr": "Okinawa",
+                                    "en": "Okinawa",
+                                    "es": "Okinawa",
+                                    "it": "Okinawa",
+                                    "jp": "沖縄県"
+                                }
                             }
                         }
                     }
                 },
                 "name": {
-                    "fr": "Japon"
+                    "fr": "Japon",
+                    "en": "Japan",
+                    "es": "Japón",
+                    "it": "Giappone",
+                    "jp": "日本"
                 }
             },
             "IDN": {
@@ -3394,7 +4076,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Ontario.svg",
                         "name": {
                             "fr": "Ontario",
-                            "en": "Ontario"
+                            "en": "Ontario",
+                            "es": "Ontario",
+                            "it": "Ontario",
+                            "jp": "オンタリオ州"
                         }
                     },
                     "QC": {
@@ -3402,7 +4087,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg",
                         "name": {
                             "fr": "Québec",
-                            "en": "Quebec"
+                            "en": "Quebec",
+                            "es": "Quebec",
+                            "it": "Québec",
+                            "jp": "ケベック州"
                         },
                         "get":{
                             "1":{
@@ -3531,7 +4219,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_New_Brunswick.svg",
                         "name": {
                             "fr": "Nouveau-Brunswick",
-                            "en": "New Brunswick"
+                            "en": "New Brunswick",
+                            "es": "Nuevo Brunswick",
+                            "it": "Nuovo Brunswick",
+                            "jp": "ニューブランズウィック州"
                         }
                     },
                     "PE": {
@@ -3539,7 +4230,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/2/29/Official_Flag_of_Prince_Edward_Island.svg",
                         "name": {
                             "fr": "Île-du-Prince-Édouard",
-                            "en": "Prince Edward Island"
+                            "en": "Prince Edward Island",
+                            "es": "Isla del Príncipe Eduardo",
+                            "it": "Isola del Principe Edoardo",
+                            "jp": "プリンスエドワードアイランド州"
                         }
                     },
                     "NS": {
@@ -3547,7 +4241,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Nova_Scotia.svg",
                         "name": {
                             "fr": "Nouvelle-Écosse",
-                            "en": "Nova Scotia"
+                            "en": "Nova Scotia",
+                            "es": "Nueva Escocia",
+                            "it": "Nuova Scozia",
+                            "jp": "ノバスコシア州"
                         }
                     },
                     "NL": {
@@ -3555,7 +4252,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Newfoundland_and_Labrador.svg",
                         "name": {
                             "fr": "Terre-Neuve-et-Labrador",
-                            "en": "Newfoundland and Labrador"
+                            "en": "Newfoundland and Labrador",
+                            "es": "Terranova y Labrador",
+                            "it": "Terranova e Labrador",
+                            "jp": "ニューファンドランド・ラブラドール州"
                         }
                     },
                     "NU": {
@@ -3563,7 +4263,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/9/90/Flag_of_Nunavut.svg",
                         "name": {
                             "fr": "Nunavut",
-                            "en": "Nunavut"
+                            "en": "Nunavut",
+                            "es": "Nunavut",
+                            "it": "Nunavut",
+                            "jp": "ヌナブト準州"
                         }
                     },
                     "NT": {
@@ -3571,7 +4274,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Northwest_Territories.svg",
                         "name": {
                             "fr": "Territoires du Nord-Ouest",
-                            "en": "Northwest Territories"
+                            "en": "Northwest Territories",
+                            "es": "Territorios del Noroeste",
+                            "it": "Territori del Nord-Ovest",
+                            "jp": "ノースウエスト準州"
                         }
                     },
                     "YT": {
@@ -3579,7 +4285,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_Yukon.svg",
                         "name": {
                             "fr": "Yukon",
-                            "en": "Yukon"
+                            "en": "Yukon",
+                            "es": "Yukón",
+                            "it": "Yukon",
+                            "jp": "ユーコン準州"
                         }
                     },
                     "BC": {
@@ -3587,7 +4296,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_British_Columbia.svg",
                         "name": {
                             "fr": "Colombie-Britannique",
-                            "en": "British Columbia"
+                            "en": "British Columbia",
+                            "es": "Columbia Británica",
+                            "it": "Columbia Britannica",
+                            "jp": "ブリティッシュコロンビア州"
                         }
                     },
                     "AB": {
@@ -3595,7 +4307,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Flag_of_Alberta.svg",
                         "name": {
                             "fr": "Alberta",
-                            "en": "Alberta"
+                            "en": "Alberta",
+                            "es": "Alberta",
+                            "it": "Alberta",
+                            "jp": "アルバータ州"
                         }
                     },
                     "SK": {
@@ -3603,7 +4318,10 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_Saskatchewan.svg",
                         "name": {
                             "fr": "Saskatchewan",
-                            "en": "Saskatchewan"
+                            "en": "Saskatchewan",
+                            "es": "Saskatchewan",
+                            "it": "Saskatchewan",
+                            "jp": "サスカチュワン州"
                         }
                     },
                     "MB": {
@@ -3611,12 +4329,19 @@
                         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Manitoba.svg",
                         "name": {
                             "fr": "Manitoba",
-                            "en": "Manitoba"
+                            "en": "Manitoba",
+                            "es": "Manitoba",
+                            "it": "Manitoba",
+                            "jp": "マニトバ州"
                         }
                     }
                 },
                 "name": {
-                    "fr": "Canada"
+                    "fr": "Canada",
+                    "en": "Canada",
+                    "es": "Canadá",
+                    "it": "Canada",
+                    "jp": "カナダ"
                 }
             },
             "USA": {
@@ -3625,176 +4350,572 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.svg",
                 "get": {
                     "AL": {
-                        "content": "Data:Alabama.map"
+                        "content": "Data:Alabama.map",
+                        "name": {
+                            "fr": "Alabama",
+                            "en": "Alabama",
+                            "es": "Alabama",
+                            "it": "Alabama",
+                            "jp": "アラバマ州"
+                        }
                     },
                     "AK": {
-                        "content": "Data:Alaska.map"
+                        "content": "Data:Alaska.map",
+                        "name": {
+                            "fr": "Alaska",
+                            "en": "Alaska",
+                            "es": "Alaska",
+                            "it": "Alaska",
+                            "jp": "アラスカ州"
+                        }
                     },
                     "AZ": {
-                        "content": "Data:Arizona.map"
+                        "content": "Data:Arizona.map",
+                        "name": {
+                            "fr": "Arizona",
+                            "en": "Arizona",
+                            "es": "Arizona",
+                            "it": "Arizona",
+                            "jp": "アリゾナ州"
+                        }
                     },
                     "AR": {
-                        "content": "Data:Arkansas.map"
+                        "content": "Data:Arkansas.map",
+                        "name": {
+                            "fr": "Arkansas",
+                            "en": "Arkansas",
+                            "es": "Arkansas",
+                            "it": "Arkansas",
+                            "jp": "アーカンソー州"
+                        }
                     },
                     "CA": {
-                        "content": "Data:California.map"
+                        "content": "Data:California.map",
+                        "name": {
+                            "fr": "Californie",
+                            "en": "California",
+                            "es": "California",
+                            "it": "California",
+                            "jp": "カリフォルニア州"
+                        }
                     },
                     "NC": {
-                        "content": "Data:NorthCarolina.map"
+                        "content": "Data:NorthCarolina.map",
+                        "name": {
+                            "fr": "Caroline du Nord",
+                            "en": "North Carolina",
+                            "es": "Carolina del Norte",
+                            "it": "Carolina del Nord",
+                            "jp": "ノースカロライナ州"
+                        }
                     },
                     "SC": {
-                        "content": "Data:SouthCarolina.map"
+                        "content": "Data:SouthCarolina.map",
+                        "name": {
+                            "fr": "Caroline du Sud",
+                            "en": "South Carolina",
+                            "es": "Carolina del Sur",
+                            "it": "Carolina del Sud",
+                            "jp": "サウスカロライナ州"
+                        }
                     },
                     "CO": {
-                        "content": "Data:Colorado.map"
+                        "content": "Data:Colorado.map",
+                        "name": {
+                            "fr": "Colorado",
+                            "en": "Colorado",
+                            "es": "Colorado",
+                            "it": "Colorado",
+                            "jp": "コロラド州"
+                        }
                     },
                     "CT": {
-                        "content": "Data:Connecticut.map"
+                        "content": "Data:Connecticut.map",
+                        "name": {
+                            "fr": "Connecticut",
+                            "en": "Connecticut",
+                            "es": "Connecticut",
+                            "it": "Connecticut",
+                            "jp": "コネチカット州"
+                        }
                     },
                     "ND": {
-                        "content": "Data:NorthDakota.map"
+                        "content": "Data:NorthDakota.map",
+                        "name": {
+                            "fr": "Dakota du Nord",
+                            "en": "North Dakota",
+                            "es": "Dakota del Norte",
+                            "it": "Dakota del Nord",
+                            "jp": "ノースダコタ州"
+                        }
                     },
                     "SD": {
-                        "content": "Data:SouthDakota.map"
+                        "content": "Data:SouthDakota.map",
+                        "name": {
+                            "fr": "Dakota du Sud",
+                            "en": "South Dakota",
+                            "es": "Dakota del Sur",
+                            "it": "Dakota del Sud",
+                            "jp": "サウスダコタ州"
+                        }
                     },
                     "DE": {
-                        "content": "Data:Delaware.map"
+                        "content": "Data:Delaware.map",
+                        "name": {
+                            "fr": "Delaware",
+                            "en": "Delaware",
+                            "es": "Delaware",
+                            "it": "Delaware",
+                            "jp": "デラウェア州"
+                        }
                     },
                     "FL": {
-                        "content": "Data:Florida.map"
+                        "content": "Data:Florida.map",
+                        "name": {
+                            "fr": "Floride",
+                            "en": "Florida",
+                            "es": "Florida",
+                            "it": "Florida",
+                            "jp": "フロリダ州"
+                        }
                     },
                     "GA": {
-                        "content": "Data:Georgia-US.map"
+                        "content": "Data:Georgia-US.map",
+                        "name": {
+                            "fr": "Géorgie",
+                            "en": "Georgia",
+                            "es": "Georgia",
+                            "it": "Georgia",
+                            "jp": "ジョージア州"
+                        }
                     },
                     "HI": {
-                        "content": "Data:Hawaii.map"
+                        "content": "Data:Hawaii.map",
+                        "name": {
+                            "fr": "Hawaï",
+                            "en": "Hawaii",
+                            "es": "Hawái",
+                            "it": "Hawaii",
+                            "jp": "ハワイ州"
+                        }
                     },
                     "ID": {
-                        "content": "Data:Idaho.map"
+                        "content": "Data:Idaho.map",
+                        "name": {
+                            "fr": "Idaho",
+                            "en": "Idaho",
+                            "es": "Idaho",
+                            "it": "Idaho",
+                            "jp": "アイダホ州"
+                        }
                     },
                     "IL": {
-                        "content": "Data:Illinois.map"
+                        "content": "Data:Illinois.map",
+                        "name": {
+                            "fr": "Illinois",
+                            "en": "Illinois",
+                            "es": "Illinois",
+                            "it": "Illinois",
+                            "jp": "イリノイ州"
+                        }
                     },
                     "IN": {
-                        "content": "Data:Indiana.map"
+                        "content": "Data:Indiana.map",
+                        "name": {
+                            "fr": "Indiana",
+                            "en": "Indiana",
+                            "es": "Indiana",
+                            "it": "Indiana",
+                            "jp": "インディアナ州"
+                        }
                     },
                     "IA": {
-                        "content": "Data:Iowa.map"
+                        "content": "Data:Iowa.map",
+                        "name": {
+                            "fr": "Iowa",
+                            "en": "Iowa",
+                            "es": "Iowa",
+                            "it": "Iowa",
+                            "jp": "アイオワ州"
+                        }
                     },
                     "KS": {
-                        "content": "Data:Kansas.map"
+                        "content": "Data:Kansas.map",
+                        "name": {
+                            "fr": "Kansas",
+                            "en": "Kansas",
+                            "es": "Kansas",
+                            "it": "Kansas",
+                            "jp": "カンザス州"
+                        }
                     },
                     "KY": {
-                        "content": "Data:Kentucky.map"
+                        "content": "Data:Kentucky.map",
+                        "name": {
+                            "fr": "Kentucky",
+                            "en": "Kentucky",
+                            "es": "Kentucky",
+                            "it": "Kentucky",
+                            "jp": "ケンタッキー州"
+                        }
                     },
                     "LA": {
-                        "content": "Data:Louisiana.map"
+                        "content": "Data:Louisiana.map",
+                        "name": {
+                            "fr": "Louisiane",
+                            "en": "Louisiana",
+                            "es": "Luisiana",
+                            "it": "Louisiana",
+                            "jp": "ルイジアナ州"
+                        }
                     },
                     "ME": {
-                        "content": "Data:Maine.map"
+                        "content": "Data:Maine.map",
+                        "name": {
+                            "fr": "Maine",
+                            "en": "Maine",
+                            "es": "Maine",
+                            "it": "Maine",
+                            "jp": "メイン州"
+                        }
                     },
                     "MD": {
-                        "content": "Data:Maryland.map"
+                        "content": "Data:Maryland.map",
+                        "name": {
+                            "fr": "Maryland",
+                            "en": "Maryland",
+                            "es": "Maryland",
+                            "it": "Maryland",
+                            "jp": "メリーランド州"
+                        }
                     },
                     "MA": {
-                        "content": "Data:Massachusetts.map"
+                        "content": "Data:Massachusetts.map",
+                        "name": {
+                            "fr": "Massachusetts",
+                            "en": "Massachusetts",
+                            "es": "Massachusetts",
+                            "it": "Massachusetts",
+                            "jp": "マサチューセッツ州"
+                        }
                     },
                     "MI": {
-                        "content": "Data:Michigan.map"
+                        "content": "Data:Michigan.map",
+                        "name": {
+                            "fr": "Michigan",
+                            "en": "Michigan",
+                            "es": "Míchigan",
+                            "it": "Michigan",
+                            "jp": "ミシガン州"
+                        }
                     },
                     "MN": {
-                        "content": "Data:Minnesota.map"
+                        "content": "Data:Minnesota.map",
+                        "name": {
+                            "fr": "Minnesota",
+                            "en": "Minnesota",
+                            "es": "Minnesota",
+                            "it": "Minnesota",
+                            "jp": "ミネソタ州"
+                        }
                     },
                     "MS": {
-                        "content": "Data:Mississippi.map"
+                        "content": "Data:Mississippi.map",
+                        "name": {
+                            "fr": "Mississippi",
+                            "en": "Mississippi",
+                            "es": "Misisipi",
+                            "it": "Mississippi",
+                            "jp": "ミシシッピ州"
+                        }
                     },
                     "MO": {
-                        "content": "Data:Missouri.map"
+                        "content": "Data:Missouri.map",
+                        "name": {
+                            "fr": "Missouri",
+                            "en": "Missouri",
+                            "es": "Misuri",
+                            "it": "Missouri",
+                            "jp": "ミズーリ州"
+                        }
                     },
                     "MT": {
-                        "content": "Data:Montana.map"
+                        "content": "Data:Montana.map",
+                        "name": {
+                            "fr": "Montana",
+                            "en": "Montana",
+                            "es": "Montana",
+                            "it": "Montana",
+                            "jp": "モンタナ州"
+                        }
                     },
                     "NE": {
-                        "content": "Data:Nebraska.map"
+                        "content": "Data:Nebraska.map",
+                        "name": {
+                            "fr": "Nebraska",
+                            "en": "Nebraska",
+                            "es": "Nebraska",
+                            "it": "Nebraska",
+                            "jp": "ネブラスカ州"
+                        }
                     },
                     "NV": {
-                        "content": "Data:Nevada.map"
+                        "content": "Data:Nevada.map",
+                        "name": {
+                            "fr": "Nevada",
+                            "en": "Nevada",
+                            "es": "Nevada",
+                            "it": "Nevada",
+                            "jp": "ネバダ州"
+                        }
                     },
                     "NH": {
-                        "content": "Data:NewHampshire.map"
+                        "content": "Data:NewHampshire.map",
+                        "name": {
+                            "fr": "New Hampshire",
+                            "en": "New Hampshire",
+                            "es": "Nuevo Hampshire",
+                            "it": "New Hampshire",
+                            "jp": "ニューハンプシャー州"
+                        }
                     },
                     "NJ": {
-                        "content": "Data:NewJersey.map"
+                        "content": "Data:NewJersey.map",
+                        "name": {
+                            "fr": "New Jersey",
+                            "en": "New Jersey",
+                            "es": "Nueva Jersey",
+                            "it": "New Jersey",
+                            "jp": "ニュージャージー州"
+                        }
                     },
                     "NY": {
-                        "content": "Data:NewYork.map"
+                        "content": "Data:NewYork.map",
+                        "name": {
+                            "fr": "New York",
+                            "en": "New York",
+                            "es": "Nueva York",
+                            "it": "New York",
+                            "jp": "ニューヨーク州"
+                        }
                     },
                     "NM": {
-                        "content": "Data:NewMexico.map"
+                        "content": "Data:NewMexico.map",
+                        "name": {
+                            "fr": "Nouveau-Mexique",
+                            "en": "New Mexico",
+                            "es": "Nuevo México",
+                            "it": "Nuovo Messico",
+                            "jp": "ニューメキシコ州"
+                        }
                     },
                     "OH": {
-                        "content": "Data:Ohio.map"
+                        "content": "Data:Ohio.map",
+                        "name": {
+                            "fr": "Ohio",
+                            "en": "Ohio",
+                            "es": "Ohio",
+                            "it": "Ohio",
+                            "jp": "オハイオ州"
+                        }
                     },
                     "OK": {
-                        "content": "Data:Oklahoma.map"
+                        "content": "Data:Oklahoma.map",
+                        "name": {
+                            "fr": "Oklahoma",
+                            "en": "Oklahoma",
+                            "es": "Oklahoma",
+                            "it": "Oklahoma",
+                            "jp": "オクラホマ州"
+                        }
                     },
                     "OR": {
-                        "content": "Data:Oregon.map"
+                        "content": "Data:Oregon.map",
+                        "name": {
+                            "fr": "Oregon",
+                            "en": "Oregon",
+                            "es": "Oregón",
+                            "it": "Oregon",
+                            "jp": "オレゴン州"
+                        }
                     },
                     "PA": {
-                        "content": "Data:Pennsylvania.map"
+                        "content": "Data:Pennsylvania.map",
+                        "name": {
+                            "fr": "Pennsylvanie",
+                            "en": "Pennsylvania",
+                            "es": "Pensilvania",
+                            "it": "Pennsylvania",
+                            "jp": "ペンシルベニア州"
+                        }
                     },
                     "RI": {
-                        "content": "Data:RhodeIsland.map"
+                        "content": "Data:RhodeIsland.map",
+                        "name": {
+                            "fr": "Rhode Island",
+                            "en": "Rhode Island",
+                            "es": "Rhode Island",
+                            "it": "Rhode Island",
+                            "jp": "ロードアイランド州"
+                        }
                     },
                     "TN": {
-                        "content": "Data:Tennessee.map"
+                        "content": "Data:Tennessee.map",
+                        "name": {
+                            "fr": "Tennessee",
+                            "en": "Tennessee",
+                            "es": "Tennessee",
+                            "it": "Tennessee",
+                            "jp": "テネシー州"
+                        }
                     },
                     "TX": {
-                        "content": "Data:Texas.map"
+                        "content": "Data:Texas.map",
+                        "name": {
+                            "fr": "Texas",
+                            "en": "Texas",
+                            "es": "Texas",
+                            "it": "Texas",
+                            "jp": "テキサス州"
+                        }
                     },
                     "UT": {
-                        "content": "Data:Utah.map"
+                        "content": "Data:Utah.map",
+                        "name": {
+                            "fr": "Utah",
+                            "en": "Utah",
+                            "es": "Utah",
+                            "it": "Utah",
+                            "jp": "ユタ州"
+                        }
                     },
                     "VT": {
-                        "content": "Data:Vermont.map"
+                        "content": "Data:Vermont.map",
+                        "name": {
+                            "fr": "Vermont",
+                            "en": "Vermont",
+                            "es": "Vermont",
+                            "it": "Vermont",
+                            "jp": "バーモント州"
+                        }
                     },
                     "VA": {
-                        "content": "Data:Virginia.map"
+                        "content": "Data:Virginia.map",
+                        "name": {
+                            "fr": "Virginie",
+                            "en": "Virginia",
+                            "es": "Virginia",
+                            "it": "Virginia",
+                            "jp": "バージニア州"
+                        }
                     },
                     "WV": {
-                        "content": "Data:WestVirginia.map"
+                        "content": "Data:WestVirginia.map",
+                        "name": {
+                            "fr": "Virginie-Occidentale",
+                            "en": "West Virginia",
+                            "es": "Virginia Occidental",
+                            "it": "Virginia Occidentale",
+                            "jp": "ウエストバージニア州"
+                        }
                     },
                     "WA": {
-                        "content": "Data:Washington.map"
+                        "content": "Data:Washington.map",
+                        "name": {
+                            "fr": "Washington",
+                            "en": "Washington",
+                            "es": "Washington",
+                            "it": "Washington",
+                            "jp": "ワシントン州"
+                        }
                     },
                     "WI": {
-                        "content": "Data:Wisconsin.map"
+                        "content": "Data:Wisconsin.map",
+                        "name": {
+                            "fr": "Wisconsin",
+                            "en": "Wisconsin",
+                            "es": "Wisconsin",
+                            "it": "Wisconsin",
+                            "jp": "ウィスコンシン州"
+                        }
                     },
                     "WY": {
-                        "content": "Data:Wyoming.map"
+                        "content": "Data:Wyoming.map",
+                        "name": {
+                            "fr": "Wyoming",
+                            "en": "Wyoming",
+                            "es": "Wyoming",
+                            "it": "Wyoming",
+                            "jp": "ワイオミング州"
+                        }
                     },
                     "PRI": {
-                        "content": "useInstead:OSMB:puertoRico.geojson"
+                        "content": "useInstead:OSMB:puertoRico.geojson",
+                        "name": {
+                            "fr": "Porto Rico",
+                            "en": "Puerto Rico",
+                            "es": "Puerto Rico",
+                            "it": "Porto Rico",
+                            "jp": "プエルトリコ"
+                        }
                     },
                     "NMI": {
-                        "content": "useInstead:OSMB:northernMarianaIslands.geojson"
+                        "content": "useInstead:OSMB:northernMarianaIslands.geojson",
+                        "name": {
+                            "fr": "Îles Mariannes du Nord",
+                            "en": "Northern Mariana Islands",
+                            "es": "Islas Marianas del Norte",
+                            "it": "Isole Marianne Settentrionali",
+                            "jp": "北マリアナ諸島"
+                        }
                     },
                     "DC": {
-                        "content": "Data:DistrictofColumbia.map"
+                        "content": "Data:DistrictofColumbia.map",
+                        "name": {
+                            "fr": "District de Columbia",
+                            "en": "District of Columbia",
+                            "es": "Distrito de Columbia",
+                            "it": "Distretto di Columbia",
+                            "jp": "コロンビア特別区"
+                        }
                     },
                     "UVI": {
-                        "content": "useInstead:OSMB:unitedStatesVirginIsland.geojson"
+                        "content": "useInstead:OSMB:unitedStatesVirginIsland.geojson",
+                        "name": {
+                            "fr": "Îles Vierges des États-Unis",
+                            "en": "United States Virgin Islands",
+                            "es": "Islas Vírgenes de los Estados Unidos",
+                            "it": "Isole Vergini statunitensi",
+                            "jp": "アメリカ領ヴァージン諸島"
+                        }
                     },
                     "GUM": {
-                        "content": "useInstead:OSMB:guam.geojson"
+                        "content": "useInstead:OSMB:guam.geojson",
+                        "name": {
+                            "fr": "Guam",
+                            "en": "Guam",
+                            "es": "Guam",
+                            "it": "Guam",
+                            "jp": "グアム"
+                        }
                     },
                     "ASM": {
-                        "content": "useInstead:OSMB:americanSamoa.geojson"
+                        "content": "useInstead:OSMB:americanSamoa.geojson",
+                        "name": {
+                            "fr": "Samoa américaines",
+                            "en": "American Samoa",
+                            "es": "Samoa Americana",
+                            "it": "Samoa Americane",
+                            "jp": "米領サモア"
+                        }
                     }
                 },
                 "name": {
-                    "fr": "États-Unis"
+                    "fr": "États-Unis",
+                    "en": "United States",
+                    "es": "Estados Unidos",
+                    "it": "Stati Uniti",
+                    "jp": "アメリカ"
                 }
             },
             "MEX": {
@@ -4552,96 +5673,112 @@
                     "SA": {
                         "content": "Data:Australia/South Australia.map",
                         "name": {
-                            "fr": "Australie-Méridionale"
+                            "fr": "Australie-Méridionale",
+                            "en": "South Australia"
                         }
                     },
                     "WA": {
                         "content": "Data:Australia/Western Australia.map",
                         "name": {
-                            "fr": "Australie-Occidentale"
+                            "fr": "Australie-Occidentale",
+                            "en": "Western Australia"
                         }
                     },
                     "NGS": {
                         "content": "Data:Australia/New South Wales.map",
                         "name": {
-                            "fr": "Nouvelle-Galles du Sud"
+                            "fr": "Nouvelle-Galles du Sud",
+                            "en": "New South Wales"
                         }
                     },
                     "QLD": {
                         "content": "Data:Australia/Queensland.map",
                         "name": {
-                            "fr": "Queensland"
+                            "fr": "Queensland",
+                            "en": "Queensland"
                         }
                     },
                     "TAS": {
                         "content": "Data:Australia/Tasmania.map",
                         "name": {
-                            "fr": "Tasmanie"
+                            "fr": "Tasmanie",
+                            "en": "Tasmania"
                         }
                     },
                     "VIC": {
                         "content": "Data:Australia/Victoria.map",
                         "name": {
-                            "fr": "Victoria"
+                            "fr": "Victoria",
+                            "en": "Victoria"
                         }
                     },
                     "ACT": {
                         "content": "Data:Australia/Australian Capital Territory.map",
                         "name": {
-                            "fr": "Territoire de la capitale australienne"
+                            "fr": "Territoire de la capitale australienne",
+                            "en": "Australian Capital Territory"
                         }
                     },
                     "NT": {
                         "content": "Data:Australia/Northern Territory.map",
                         "name": {
-                            "fr": "Territoire du Nord"
+                            "fr": "Territoire du Nord",
+                            "en": "Northern Territory"
                         }
                     },
                     "JBT": {
-                        "content": "Data:Australia/Jervis Bay Territory.map",
+                        "content": "useInstead:Circle:-35.065278:150.734722",
                         "name": {
-                            "fr": "Territoire de la baie de Jervis"
+                            "fr": "Territoire de la baie de Jervis",
+                            "en": "Jervis Bay Territory"
                         }
                     },
                     "NFK": {
                         "content": "useInstead:OSMB:australia/nfk.geojson",
                         "name": {
-                            "fr": "Île Norfolk"
+                            "fr": "Île Norfolk",
+                            "en": "Norfolk Island"
                         }
                     },
                     "CXR": {
                         "content": "useInstead:OSMB:australia/cxr.geojson",
                         "name": {
-                            "fr": "Île Christmas"
+                            "fr": "Île Christmas",
+                            "en": "Christmas Island"
                         }
                     },
                     "CCK": {
                         "content": "useInstead:OSMB:australia/cck.geojson",
                         "name": {
-                            "fr": "Îles Cocos"
+                            "fr": "Îles Cocos",
+                            "en": "Cocos (Keeling) Islands"
                         }
                     },
                     "ACI": {
                         "content": "useInstead:OSMB:australia/aci.geojson",
                         "name": {
-                            "fr": "Îles Ashmore-et-Cartier"
+                            "fr": "Îles Ashmore-et-Cartier",
+                            "en": "Ashmore and Cartier Islands"
                         }
                     },
                     "CSI": {
                         "content": "useInstead:OSMB:australia/csi.geojson",
                         "name": {
-                            "fr": "Îles de la mer de Corail"
+                            "fr": "Îles de la mer de Corail",
+                            "en": "Coral Sea Islands"
                         }
                     },
                     "HMD": {
                         "content": "useInstead:OSMB:australia/hmd.geojson",
                         "name": {
-                            "fr": "Îles Heard-et-MacDonald"
+                            "fr": "Îles Heard-et-MacDonald",
+                            "en": "Heard Island and McDonald Islands"
                         }
                     }
                 },
                 "name": {
-                    "fr": "Australie"
+                    "fr": "Australie",
+                    "en": "Australia"
                 }
             },
             "NZ": {
@@ -4650,56 +5787,121 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
                 "get": {
                     "NTL": {
-                        "content": "Data:New Zealand/Northland.map"
+                        "content": "Data:New Zealand/Northland.map",
+                        "name": {
+                            "fr": "Northland",
+                            "en": "Northland"
+                        }
                     },
                     "AUK": {
-                        "content": "Data:New Zealand/Auckland.map"
+                        "content": "Data:New Zealand/Auckland.map",
+                        "name": {
+                            "fr": "Auckland",
+                            "en": "Auckland"
+                        }
                     },
                     "WKO": {
-                        "content": "Data:New Zealand/Waikato.map"
+                        "content": "Data:New Zealand/Waikato.map",
+                        "name": {
+                            "fr": "Waikato",
+                            "en": "Waikato"
+                        }
                     },
                     "BOP": {
-                        "content": "Data:New Zealand/Bay of Plenty.map"
+                        "content": "Data:New Zealand/Bay of Plenty.map",
+                        "name": {
+                            "fr": "Baie de Abondance",
+                            "en": "Bay of Plenty"
+                        }
                     },
                     "GIS": {
-                        "content": "Data:New Zealand/Gisborne District.map"
+                        "content": "Data:New Zealand/Gisborne District.map",
+                        "name": {
+                            "fr": "Gisborne",
+                            "en": "Gisborne"
+                        }
                     },
                     "WGN": {
-                        "content": "Data:New Zealand/Wellington.map"
+                        "content": "Data:New Zealand/Wellington.map",
+                        "name": {
+                            "fr": "Wellington",
+                            "en": "Wellington"
+                        }
                     },
                     "MWT": {
-                        "content": "Data:New Zealand/Manawatu-Wanganui.map"
+                        "content": "Data:New Zealand/Manawatu-Wanganui.map",
+                        "name": {
+                            "fr": "Manawatū-Whanganui",
+                            "en": "Manawatū-Whanganui"
+                        }
                     },
                     "TKI": {
-                        "content": "Data:New Zealand/Taranaki.map"
+                        "content": "Data:New Zealand/Taranaki.map",
+                        "name": {
+                            "fr": "Taranaki",
+                            "en": "Taranaki"
+                        }
                     },
                     "HKB": {
-                        "content": "Data:New Zealand/Hawke's Bay.map"
+                        "content": "Data:New Zealand/Hawke's Bay.map",
+                        "name": {
+                            "fr": "Hawke's Bay",
+                            "en": "Hawke's Bay"
+                        }
                     },
                     "TAS": {
-                        "content": "Data:New Zealand/Tasman District.map"
+                        "content": "Data:New Zealand/Tasman District.map",
+                        "name": {
+                            "fr": "Tasman",
+                            "en": "Tasman"
+                        }
                     },
                     "NSN": {
-                        "content": "Data:New Zealand/Nelson City.map"
+                        "content": "Data:New Zealand/Nelson City.map",
+                        "name": {
+                            "fr": "Nelson",
+                            "en": "Nelson"
+                        }
                     },
                     "MBH": {
-                        "content": "Data:New Zealand/Marlborough District.map"
+                        "content": "Data:New Zealand/Marlborough District.map",
+                        "name": {
+                            "fr": "Marlborough",
+                            "en": "Marlborough"
+                        }
                     },
                     "WTC": {
-                        "content": "Data:New Zealand/West Coast.map"
+                        "content": "Data:New Zealand/West Coast.map",
+                        "name": {
+                            "fr": "West Coast",
+                            "en": "West Coast"
+                        }
                     },
                     "CAN": {
-                        "content": "Data:New Zealand/Canterbury.map"
+                        "content": "Data:New Zealand/Canterbury.map",
+                        "name": {
+                            "fr": "Canterbury",
+                            "en": "Canterbury"
+                        }
                     },
                     "OTA": {
-                        "content": "Data:New Zealand/Otago.map"
+                        "content": "Data:New Zealand/Otago.map",
+                        "name": {
+                            "fr": "Otago",
+                            "en": "Otago"
+                        }
                     },
                     "STL": {
-                        "content": "Data:New Zealand/Southland.map"
+                        "content": "Data:New Zealand/Southland.map",
+                        "name": {
+                            "fr": "Southland",
+                            "en": "Southland"
+                        }
                     }
                 },
                 "name": {
-                    "fr": "Nouvelle-Zélande"
+                    "fr": "Nouvelle-Zélande",
+                    "en": "New Zealand"
                 }
             },
             "COK": {
