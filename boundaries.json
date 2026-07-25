@@ -2,7 +2,7 @@
     "DB:INFO": {
         "ID":"metrop.geo.database",
         "NAME": {
-            "en":"Default Metrop Geo Database"
+            "en":"Metrop Geo Database"
         },
         "API_VER":[
             1,
@@ -18,12 +18,13 @@
             7,
             21
         ],
-        "PROVIDER": "METROP_LEARNING_ORGANISATION",
+        "PROVIDER": "Metrop Learning Org",
         "TYPE": "MODERN_DAY",
         "CONTENT_ADVISORY": {
             "CONTESTED_TERRITORY": true
         },
-        "LICENSE":"https://metrop-learning.github.io/metrop.geo.database/LICENSE"
+        "LICENSE":["Copyright (c) 2026 Metrop. All Rights Reserved.","GeoJSON boundaries © OpenStreetMap contributors, licensed under ODbL.","© Wikipedia contributors, licensed under CC BY-SA 4.0"],
+        "LICENSE_LINK":"https://metrop-learning.github.io/metrop.geo.database/LICENSE"
     },
     "EU": {
         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
