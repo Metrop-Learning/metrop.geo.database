@@ -66,6 +66,10 @@ for continent, countries in listOfCountryPerContinent.items():
         if country_data.get("get"):
             numOfRegion += len(country_data.get("get"))
             numOfCountryWithRegion += 1
+            for subcountry_name, subcountry_data in country_data.get("get").items():
+                if subcountry_data.get("get"):
+                    numOfRegion += len(subcountry_data.get("get"))
+        
 
 percent = math.floor(cwf / total_countries * 100) if total_countries else 0
 print(f"{percent}% of countries have a flag")

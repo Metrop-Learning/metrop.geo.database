@@ -35,9 +35,19 @@ The display of this flag for non-educational purposes is restricted or prohibite
 Copyright (c) 2026 Metrop. All Rights Reserved.
 
 ## Geographic Data (GeoJSON)
-GeoJSON boundaries © OpenStreetMap contributors, licensed under ODbL.
-Source: osm-boundaries.com
-https://www.openstreetmap.org/copyright
+
+### General Boundaries: 
+
+GeoJSON boundaries © OpenStreetMap contributors, licensed under the Open Data Commons Open Database License (ODbL) (Source: osm-boundaries.com - https://www.openstreetmap.org/copyright), or sourced from Wikimedia Commons (https://commons.wikimedia.org/).
+
+### French Department Boundaries:
+
+GeoJSON boundaries for French departments are provided by France Geojson.  
+Source: https://france-geojson.gregoiredavid.fr/
+
+### Portugal Administrative Boundaries: 
+
+GeoJSON boundaries for Portugal administrative regions are provided by the Direção-Geral do Território (DGT) - Portuguese Government. Source: Carta Administrativa Oficial de Portugal (CAOP) - Direção-Geral do Território.
 
 ## Country Information Data
 

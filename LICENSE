@@ -1,12 +1,22 @@
 # License
 
 ## Application Code
-Copyright (c) 2026 Metrop. All Rights Reserved.
+Copyright (c) 2026 Metrop Learning. All Rights Reserved.
 
 ## Geographic Data (GeoJSON)
-GeoJSON boundaries © OpenStreetMap contributors, licensed under ODbL.
-Source: osm-boundaries.com
-https://www.openstreetmap.org/copyright
+
+### General Boundaries: 
+
+GeoJSON boundaries © OpenStreetMap contributors, licensed under the Open Data Commons Open Database License (ODbL) (Source: osm-boundaries.com - https://www.openstreetmap.org/copyright), or sourced from Wikimedia Commons (https://commons.wikimedia.org/).
+
+### French Department Boundaries:
+
+GeoJSON boundaries for French departments are provided by France Geojson.  
+Source: https://france-geojson.gregoiredavid.fr/
+
+### Portugal Administrative Boundaries: 
+
+GeoJSON boundaries for Portugal administrative regions are provided by the Direção-Geral do Território (DGT) - Portuguese Government. Source: Carta Administrativa Oficial de Portugal (CAOP) - Direção-Geral do Território.
 
 ## Country Information Data
 
@@ -20,5 +30,5 @@ from external sources and are not owned by Metrop :
 - GeoJSON URLs referenced in this data are not owned by Metrop,
   see "Geographic Data" section for their license.
 
-What IS protected by Metrop copyright is exclusively :
+What IS protected by Metrop Learning copyright is exclusively :
 the original structure, hierarchy, and organization of the JSON format.
