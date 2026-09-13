@@ -11,7 +11,7 @@
         "VER": [
             1,
             5,
-            0
+            1
         ],
         "DATE": [
             2026,
@@ -1262,12 +1262,14 @@
                     }
                 },
                 "name": {
-                    "fr": "France",
+                    "de": "Frankreich",
                     "en": "France",
-                    "jp": "フランス",
-                    "it": "Francia",
                     "es": "Francia",
-                    "eo": "Francio"
+                    "eo": "Francio",
+                    "fr": "France",
+                    "it": "Francia",
+                    "jp": "フランス",
+                    "ko": "프랑스"
                 }
             },
             "DEU": {
@@ -1276,77 +1278,239 @@
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
                 "get": {
                     "BW": {
+                        "name": {
+                            "de": "Baden-Württemberg",
+                            "en": "Baden-Württemberg",
+                            "es": "Baden-Wurtemberg",
+                            "it": "Baden-Württemberg",
+                            "eo": "Baden-Virtembergo",
+                            "fr": "Bade-Wurtemberg",
+                            "jp": "バーデン＝ヴュルテンベルク州",
+                            "ko": "바덴뷔르템베르크주"
+                        },
                         "content": "Data:Baden-Württemberg.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Baden-W%C3%BCrttemberg.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Baden-W%C3%BCrttemberg.svg"
                     },
                     "NI": {
+                        "name": {
+                            "de": "Niedersachsen",
+                            "en": "Lower Saxony",
+                            "es": "Baja Sajonia",
+                            "it": "Bassa Sassonia",
+                            "eo": "Malsupra Saksio",
+                            "fr": "Basse-Saxe",
+                            "jp": "ニーダーザクセン州",
+                            "ko": "니더작센주"
+                        },
                         "content": "Data:Niedersachsen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/81/Flag_of_Lower_Saxony.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/81/Flag_of_Lower_Saxony.svg"
                     },
                     "BY": {
+                        "name": {
+                            "de": "Bayern",
+                            "en": "Bavaria",
+                            "es": "Baviera",
+                            "it": "Baviera",
+                            "eo": "Bavario",
+                            "fr": "Bavière",
+                            "jp": "バイエルン州",
+                            "ko": "바이에른주"
+                        },
                         "content": "Data:Bayern.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_Bavaria_(striped).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_Bavaria_(striped).svg"
                     },
                     "BE": {
+                        "name": {
+                            "de": "Berlin",
+                            "en": "Berlin",
+                            "es": "Berlín",
+                            "it": "Berlino",
+                            "eo": "Berlino",
+                            "fr": "Berlin",
+                            "jp": "ベルリン",
+                            "ko": "베를린"
+                        },
                         "content": "Data:Berlin.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Berlin.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Berlin.svg?uselang=fr"
                     },
                     "BB": {
+                        "name": {
+                            "de": "Brandenburg",
+                            "en": "Brandenburg",
+                            "es": "Brandeburgo",
+                            "it": "Brandeburgo",
+                            "eo": "Brandenburgo",
+                            "fr": "Brandebourg",
+                            "jp": "ブランデンブルク州",
+                            "ko": "브란덴부르크주"
+                        },
                         "content": "Data:Brandenburg.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Brandenburg.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Brandenburg.svg?uselang=fr"
                     },
                     "HB": {
+                        "name": {
+                            "de": "Bremen",
+                            "en": "Bremen",
+                            "es": "Bremen",
+                            "it": "Brema",
+                            "eo": "Bremeno",
+                            "fr": "Brême",
+                            "jp": "ブレーメン州",
+                            "ko": "브레멘주"
+                        },
                         "content": "Data:Bremen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Bremen.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Bremen.svg?uselang=fr"
                     },
                     "HH": {
+                        "name": {
+                            "de": "Hamburg",
+                            "en": "Hamburg",
+                            "es": "Hamburgo",
+                            "it": "Amburgo",
+                            "eo": "Hamburgo",
+                            "fr": "Hambourg",
+                            "jp": "ハンブルク",
+                            "ko": "함부르크"
+                        },
                         "content": "Data:Hamburg.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Hamburg.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Hamburg.svg?uselang=fr"
                     },
                     "HE": {
+                        "name": {
+                            "de": "Hessen",
+                            "en": "Hesse",
+                            "es": "Hesse",
+                            "it": "Assia",
+                            "eo": "Hesio",
+                            "fr": "Hesse",
+                            "jp": "ヘッセン州",
+                            "ko": "헤센주"
+                        },
                         "content": "Data:Hessen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Hesse.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Hesse.svg?uselang=fr"
                     },
                     "MV": {
+                        "name": {
+                            "de": "Mecklenburg-Vorpommern",
+                            "en": "Mecklenburg-Vorpommern",
+                            "es": "Mecklemburgo-Pomerania Occidental",
+                            "it": "Meclemburgo-Pomerania Anteriore",
+                            "eo": "Meklenburgo-Antaŭpomerio",
+                            "fr": "Mecklembourg-Poméranie-Occidentale",
+                            "jp": "メクレンブルク＝フォアポンメルン州",
+                            "ko": "메클렌부르크포어포메른주"
+                        },
                         "content": "Data:Mecklenburg-Vorpommern.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Mecklenburg-Western_Pomerania_(state).svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Mecklenburg-Western_Pomerania_(state).svg"
                     },
                     "NW": {
+                        "name": {
+                            "de": "Nordrhein-Westfalen",
+                            "en": "North Rhine-Westphalia",
+                            "es": "Renania del Norte-Westfalia",
+                            "it": "Renania Settentrionale-Vestfalia",
+                            "eo": "Nordrejn-Vestfalio",
+                            "fr": "Rhénanie-du-Nord-Westphalie",
+                            "jp": "ノルトライン＝ヴェストファーレン州",
+                            "ko": "노르트라인베스트팔렌주"
+                        },
                         "content": "Data:Nordrhein-Westfalen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_North_Rhine-Westphalia.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_North_Rhine-Westphalia.svg?uselang=fr"
                     },
                     "RP": {
+                        "name": {
+                            "de": "Rheinland-Pfalz",
+                            "en": "Rhineland-Palatinate",
+                            "es": "Renania-Palatinado",
+                            "it": "Renania-Palatinato",
+                            "eo": "Rejnlando-Palatinato",
+                            "fr": "Rhénanie-Palatinat",
+                            "jp": "ラインラント＝プファルツ州",
+                            "ko": "라인란트팔츠주"
+                        },
                         "content": "Data:Rheinland-Pfalz.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Rhineland-Palatinate.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Rhineland-Palatinate.svg?uselang=fr"
                     },
                     "SL": {
+                        "name": {
+                            "de": "Saarland",
+                            "en": "Saarland",
+                            "es": "Sarre",
+                            "it": "Saarland",
+                            "eo": "Sarlando",
+                            "fr": "Sarre",
+                            "jp": "ザールラント州",
+                            "ko": "자르란트주"
+                        },
                         "content": "Data:Saarland.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Saarland.svg?uselang=fr"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Saarland.svg?uselang=fr"
                     },
                     "SN": {
+                        "name": {
+                            "de": "Sachsen",
+                            "en": "Saxony",
+                            "es": "Sajonia",
+                            "it": "Sassonia",
+                            "eo": "Saksio",
+                            "fr": "Saxe",
+                            "jp": "ザクセン州",
+                            "ko": "작센주"
+                        },
                         "content": "Data:Sachsen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Saxony.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Saxony.svg"
                     },
                     "ST": {
+                        "name": {
+                            "de": "Sachsen-Anhalt",
+                            "en": "Saxony-Anhalt",
+                            "es": "Sajonia-Anhalt",
+                            "it": "Sassonia-Anhalt",
+                            "eo": "Saksio-Anhalto",
+                            "fr": "Saxe-Anhalt",
+                            "jp": "ザクセン＝アンハルト州",
+                            "ko": "작센안할트주"
+                        },
                         "content": "Data:Sachsen-Anhalt.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Saxony-Anhalt.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Saxony-Anhalt.svg"
                     },
                     "SH": {
+                        "name": {
+                            "de": "Schleswig-Holstein",
+                            "en": "Schleswig-Holstein",
+                            "es": "Schleswig-Holstein",
+                            "it": "Schleswig-Holstein",
+                            "eo": "Ŝlesvigo-Holstinio",
+                            "fr": "Schleswig-Holstein",
+                            "jp": "シュレースヴィヒ＝ホルシュタイン州",
+                            "ko": "슐레스비히홀슈타인주"
+                        },
                         "content": "Data:Schleswig-Holstein.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Schleswig-Holstein.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Schleswig-Holstein.svg"
                     },
                     "TH": {
+                        "name": {
+                            "de": "Thüringen",
+                            "en": "Thuringia",
+                            "es": "Turingia",
+                            "it": "Turingia",
+                            "eo": "Turingio",
+                            "fr": "Thuringe",
+                            "jp": "テューリンゲン州",
+                            "ko": "튀링겐주"
+                        },
                         "content": "Data:Thüringen.map",
-                        "flag":"https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Thuringia.svg"
+                        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Thuringia.svg"
                     }
                 },
                 "name": {
-                    "fr": "Allemagne",
+                    "de": "Deutschland",
                     "en": "Germany",
-                    "jp": "ドイツ",
-                    "it": "Germania",
                     "es": "Alemania",
-                    "eo": "Germanio"
+                    "it": "Germania",
+                    "eo": "Germanio",
+                    "fr": "Allemagne",
+                    "jp": "ドイツ",
+                    "ko": "독일"
                 }
             },
             "CHE": {
@@ -1460,12 +1624,14 @@
                     }
                 },
                 "name": {
-                    "fr": "Suisse",
+                    "de": "Schweiz",
                     "en": "Switzerland",
-                    "jp": "スイス",
-                    "it": "Svizzera",
                     "es": "Suiza",
-                    "eo": "Svislando"
+                    "eo": "Svislando",
+                    "fr": "Suisse",
+                    "it": "Svizzera",
+                    "jp": "スイス",
+                    "ko": "스위스"
                 }
             },
             "ITA": {
@@ -1715,12 +1881,14 @@
                     }
                 },
                 "name": {
-                    "fr": "Italie",
+                    "de": "Italien",
                     "en": "Italy",
-                    "jp": "イタリア",
-                    "it": "Italia",
                     "es": "Italia",
-                    "eo": "Italio"
+                    "eo": "Italio",
+                    "fr": "Italie",
+                    "it": "Italia",
+                    "jp": "イタリア",
+                    "ko": "이탈리아"
                 }
             },
             "ESP": {
@@ -2519,12 +2687,14 @@
                     }
                 },
                 "name": {
-                    "fr": "Espagne",
+                    "de": "Spanien",
                     "en": "Spain",
-                    "jp": "スペイン",
-                    "it": "Spagna",
                     "es": "España",
-                    "eo": "Hispanio"
+                    "eo": "Hispanio",
+                    "fr": "Espagne",
+                    "it": "Spagna",
+                    "jp": "スペイン",
+                    "ko": "스페인"
                 }
             },
             "PRT": {
@@ -2532,12 +2702,14 @@
                 "population": "10 639 726",
                 "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
                 "name": {
-                    "fr": "Portugal",
+                    "de": "Portugal",
                     "en": "Portugal",
-                    "jp": "ポルトガル",
-                    "it": "Portogallo",
                     "es": "Portugal",
-                    "eo": "Portugalio"
+                    "eo": "Portugalio",
+                    "fr": "Portugal",
+                    "it": "Portogallo",
+                    "jp": "ポルトガル",
+                    "ko": "포르투갈"
                 },
                 "get":{
                   "NO": {
@@ -2993,12 +3165,14 @@
                     }
                 },
                 "name": {
-                    "fr": "Royaume-Uni",
-                    "en": "United Kingdom",
-                    "jp": "イギリス",
-                    "it": "Regno Unito",
-                    "es": "Reino Unido",
-                    "eo": "Unuiĝinta Reĝlando"
+                        "de": "Vereinigtes Königreich",
+                        "en": "United Kingdom",
+                        "es": "Reino Unido",
+                        "eo": "Unuiĝinta Reĝlando",
+                        "fr": "Royaume-Uni",
+                        "it": "Regno Unito",
+                        "jp": "イギリス",
+                        "ko": "영국"
                 }
             },
             "UKC:IMN": {
