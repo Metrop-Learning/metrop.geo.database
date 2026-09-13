@@ -2,7 +2,14 @@
     "DB:INFO": {
         "ID":"metrop.geo.database",
         "NAME": {
-            "en":"Metrop Geo Database"
+            "de": "Metrop Geo-Datenbank",
+            "en": "Metrop Geo Database",
+            "es": "Base de datos geográfica Metrop",
+            "eo": "Metrop Geografia Datumbazo",
+            "fr": "Base de données géographique Metrop",
+            "it": "Database geografico Metrop",
+            "jp": "Metropジオデータベース",
+            "ko": "메트로프 지오 데이터베이스"
         },
         "API_VER":[
             1,
